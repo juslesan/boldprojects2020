@@ -1,0 +1,98 @@
+@media (max-width: 1024px) {
+
+  h1 {
+    font-size: 44px;
+  }
+  .italics {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 769px) {
+
+  h1 {
+    font-size: 40px;
+    letter-spacing: 5px;
+
+  }
+  .italics {
+    font-size: 18px;
+    letter-spacing: 3px;
+  }
+  .threeBars {
+    display: inline-block;
+    position: fixed;
+    right: 5vw;
+    top: 3vw;
+    cursor: pointer;
+  }
+  .menu {
+    right: 5vw;
+    width: 90vw;   
+  }
+  
+}
+
+@media (max-width: 450px) {
+  .content {
+    margin-top: 10vh;
+  }
+
+  .pageHeader > h1 {
+    margin-bottom: 5px;
+  }
+  h1 {
+    font-size: 34px;
+    letter-spacing: 4px;
+
+  }
+  .italics {
+    font-size: 14px;
+    letter-spacing: 1px;
+  }
+  .textSideBoxRight {
+    padding: 0 15vw;
+    margin: 0;
+    margin-left: 0vw;
+  }
+
+  .textSideBoxLeft {
+    padding: 0 10vw;
+    margin: 0;
+    margin-right: 0vw;
+  }
+  .sideBoxImg {
+    padding-top: 5px;
+    width: 50%
+  }
+  .imageBoxImg {
+    padding-top: 50px;
+  }
+  .textBox {
+    text-align: center;
+    font-weight: 500;
+    padding: 15vh 10vw;
+  }
+}
+@media (max-width: 380px) {
+  h1 {
+    font-size: 30px;
+    letter-spacing: 4px;
+
+  }
+  .italics {
+    font-size: 13px;
+    letter-spacing: 1px;
+  }
+}
+@media (max-width: 325px) {
+  h1 {
+    font-size: 28px;
+    letter-spacing: 3px;
+
+  }
+  .italics {
+    font-size: 12px;
+    letter-spacing: 1px;
+  }
+}
