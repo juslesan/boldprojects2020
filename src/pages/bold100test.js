@@ -1,6 +1,6 @@
 import React from 'react';
 import Grid from '@material-ui/core/Grid';
-import roller from './bold100testRoll/roller'
+import roller from './portfolioRoll/roller'
 
 export default class Bold100Test extends React.Component {
   constructor(props) {
@@ -35,7 +35,7 @@ export default class Bold100Test extends React.Component {
         <Grid item xs={12} className="pageHeader">
           <h1>Bold 100 TEST</h1>
         </Grid>
-        {roller(this.state.currentRoll)}
+        {roller(this.state.currentRoll, this.props.imgs, this.props.text)}
 
       </Grid>
     )
