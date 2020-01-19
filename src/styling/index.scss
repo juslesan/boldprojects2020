@@ -103,13 +103,28 @@ code {
 
 .sideBox {
   /* background-color: white; */
+  font-size: 26px;
+  letter-spacing: 4px;
   text-align: center;
   font-weight: 400;
   padding: 0 0vw;
 }
+.sideBox2 {
+  /* background-color: white; */
+  text-align: left;
+  font-size: 22px;
+  letter-spacing: 3px;
+  font-weight: 400;
+  padding: 0 0vw;
+  width: 60%
+}
 .sideBoxImg {
   padding-top: 5px;
   width: 60%
+}
+.sideBoxImg2 {
+  padding-top: 5px;
+  width: 100%
 }
 .textSideBoxRight {
   padding: 0;
@@ -124,6 +139,15 @@ code {
   margin-right: 3vw;
   padding-left: 12.5vw 
 }
+.textSideBoxRight2 {
+  padding: 0;
+  margin: 0;
+
+}
+.textSideBoxLeft2 {
+  padding: 0;
+  margin: 0;
+}
 .imageBox{
   text-align: center
 }
@@ -137,9 +161,6 @@ code {
 }
 .italics {
   font-style: italic;
-  font-size: 26px;
-  letter-spacing: 4px;
-
 }
 .centerBox {
   /* background-color: white; */

@@ -33,7 +33,7 @@ export default function App() {
                     <Bold100/>}
                 />
                 <Route path="/bold100test" render={() =>
-                    <Bold100Test/>}
+                    <Bold100Test rollAmount={5}/>}
                 />
                 <Route path="/news" render={() =>
                     <News/>}
