@@ -35,44 +35,44 @@ export default function App() {
         <CssBaseline />
         <ThreeBars/>
         <Container maxWidth="md" className="content">
-                <Router>
-                    <Route  exact path="/" render={() => 
-                        <Frontpage rollAmount={8}/> }
-                    />
-                    <Route path="/boldvoyage" render={() =>
-                        <Portfolio rollAmount={6} head="Bold Voyage" imgs={[voyage1, voyage2, voyage3, voyage4, voyage5, voyage6]} text={voyageText}/>}
-                    />
-                    <Route path="/bold100" render={() =>
-                        <Bold100/>}
-                    />
-                    <Route path="/bold100test" render={() =>
-                        <Portfolio rollAmount={5} head="Bold 100 TEST" imgs={[bold100test1,bold100test2,bold100test3,bold100test4,bold100test5]} text={bold100TestText}/>}
-                    />
-                    <Route path="/news" render={() =>
-                        <News/>}
-                    />
-                    <Route path="/info" render={() =>
-                        <Info/>}
-                    />
-                    <Route path="/gallery" render={() =>
-                        <Gallery/>}
-                    />
-                    <Route path="/contact" render={() =>
-                        <Contact/>}
-                    />
-                    {/* <Route path="/newspaper/1" render={() =>
-                        <Issue1/>}
-                    />
-                    <Route path="/newspaper/2" render={() =>
-                        <Issue2/>}
-                    />
-                    <Route path="/newspaper/3" render={() =>
-                        <Issue3/>}
-                    />
-                    <Route path="/newspaper/4" render={() =>
-                        <Issue4/>}
-                    /> */}
-                </Router>
+            <Router>
+                <Route  exact path="/" render={() => 
+                    <Frontpage rollAmount={8}/> }
+                />
+                <Route path="/boldvoyage" render={() =>
+                    <Portfolio rollAmount={6} head="Bold Voyage" imgs={[voyage1, voyage2, voyage3, voyage4, voyage5, voyage6]} text={voyageText}/>}
+                />
+                <Route path="/bold100" render={() =>
+                    <Bold100/>}
+                />
+                <Route path="/bold100test" render={() =>
+                    <Portfolio rollAmount={5} head="Bold 100 TEST" imgs={[bold100test1,bold100test2,bold100test3,bold100test4,bold100test5]} text={bold100TestText}/>}
+                />
+                <Route path="/news" render={() =>
+                    <News/>}
+                />
+                <Route path="/info" render={() =>
+                    <Info/>}
+                />
+                <Route path="/gallery" render={() =>
+                    <Gallery/>}
+                />
+                <Route path="/contact" render={() =>
+                    <Contact/>}
+                />
+                {/* <Route path="/newspaper/1" render={() =>
+                    <Issue1/>}
+                />
+                <Route path="/newspaper/2" render={() =>
+                    <Issue2/>}
+                />
+                <Route path="/newspaper/3" render={() =>
+                    <Issue3/>}
+                />
+                <Route path="/newspaper/4" render={() =>
+                    <Issue4/>}
+                /> */}
+            </Router>
         </Container>
         </React.Fragment>
   );

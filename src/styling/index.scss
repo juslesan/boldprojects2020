@@ -24,7 +24,7 @@ code {
 .menu {
   max-height: 0;
   border: solid 2px black;
-  position: fixed;
+  position: absolute;
   overflow: hidden;
   visibility: hidden;
   font-size: 15px;
@@ -71,7 +71,7 @@ code {
 
 .threeBars {
   display: inline-block;
-  position: fixed;
+  position: absolute;
   right: 40px;
   top: 30px;
   cursor: pointer;
@@ -270,4 +270,37 @@ i:hover {
 .down {
   transform: rotate(45deg);
   -webkit-transform: rotate(45deg);
+}
+
+.infoText {
+  font-size: 28px;
+}
+.videoCont{
+  padding-top: 25px;
+}
+
+.galleryImgText{
+  font-weight: 500;
+  font-size: 16px;
+}
+.gallery1Img{
+  width:100%;
+}
+
+.gallery2Img{
+  width:110%;
+}
+.gallery3{
+  position: relative;
+  top: -300px;
+}
+.gallery3Img{
+  width:100%;
+}
+.gallery4{
+  position: relative;
+  top: -100px;
+}
+.gallery4Img{
+  width:100%;
 }
