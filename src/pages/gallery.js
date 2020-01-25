@@ -11,6 +11,7 @@ import img5 from '../img/gallery/rsz_1pic2.jpg'
 import img6 from '../img/gallery/rsz__dsf1101.jpg'
 import img7 from '../img/bold100test/DSC06425.jpg'
 import img8 from '../img/gallery/rsz_dos_men_1.jpg'
+import img9 from '../img/gallery/nätram.jpg'
 
 export default class Contact extends React.Component {
   constructor(props) {
@@ -70,8 +71,8 @@ export default class Contact extends React.Component {
           <p className="galleryImgText">BOLD 100´19</p>
         </Grid>
 
-        <Grid item xs={12} sm={5}>
-          <img src={img5} className="gallery2Img"/>
+        <Grid item xs={12} sm={5} className="gallery3">
+          <img src={img9} className="gallery2Img"/>
           <p className="galleryImgText">Eco friendly boating</p>
         </Grid>
         <Grid item xs={12} sm={1}>
@@ -83,7 +84,13 @@ export default class Contact extends React.Component {
  
         <Grid item xs={12} sm={12} className="gallery4">
           <img src={img2} className="gallery4Img"/>
-          <p className="galleryImgText">Modern farming takes the farming into account</p>
+          <p className="galleryImgText">Last to appear, first to go</p>
+        </Grid>
+        <Grid item xs={12} sm={4} className="">
+        </Grid>
+        <Grid item xs={12} sm={8} className="gallery3">
+          <img src={img5} className="gallery4Img"/>
+          <p className="galleryImgText">Last to appear, first to go</p>
         </Grid>
       </Grid>
     )
