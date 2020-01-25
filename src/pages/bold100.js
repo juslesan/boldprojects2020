@@ -1,6 +1,6 @@
 import React from 'react';
 import Grid from '@material-ui/core/Grid';
-import img1 from '../img/voyage/000828370021.jpg'
+import img1 from '../img/bold100/rsz_boldmaalikuva.jpg'
 
 export default class Bold100 extends React.Component {
   constructor(props) {
@@ -9,13 +9,9 @@ export default class Bold100 extends React.Component {
 
     }
   }
-
-  componentDidMount() {
-  }
-
   render() {
     return (
-      <Grid container spacing={3} alignItems="center" justify="center">
+      <Grid container spacing={3} alignItems="flex-start" justify="center">
         <Grid item xs={12} className="pageHeader">
           <h1>Bold 100</h1>
         </Grid>
@@ -25,7 +21,7 @@ export default class Bold100 extends React.Component {
           </p>
         </Grid>
         <Grid item xs={12} sm={6} className="sideBox2">
-          <img src={img1} alt="bold100" className="sideBoxImg"/>
+          <img src={img1} alt="bold100" className="sideBoxImg3"/>
         </Grid>
       </Grid>
     )

@@ -38,7 +38,7 @@ export default class Frontpage extends React.Component {
         </Grid>
         {roller(this.state.currentRoll)}
         <Grid container justify="center" alignItems="center" className="frontpageRoll">
-          {linkBalls(8, this.state.currentRoll, this.changeCurrentRoll)}
+          {linkBalls(this.state.rollAmount, this.state.currentRoll, this.changeCurrentRoll)}
         </Grid>
       </Grid>
     )

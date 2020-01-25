@@ -37,6 +37,7 @@ code {
   padding-bottom: 4em;
   background-color: white;
   transition: visibility 0.3s linear, max-height 0.3s linear;
+  z-index: 99;
 }
 .change .menu {
   visibility: visible;
@@ -74,6 +75,7 @@ code {
   right: 40px;
   top: 30px;
   cursor: pointer;
+  z-index: 99;
 }
 
 .bar1, .bar2, .bar3 {
@@ -126,6 +128,14 @@ code {
   padding-top: 5px;
   padding-left: 45px;
   width: 90%
+}
+.sideBoxImg2:hover {
+  cursor: pointer; 
+}
+.sideBoxImg3 {
+  padding-top: 8px;
+  padding-left: 45px;
+  width: 100%
 }
 .textSideBoxRight {
   padding: 0;
@@ -215,4 +225,49 @@ h1 {
 .m-fadeIn {
   transition: linear 1000ms, opacity 1000ms;
   opacity: 1;
+}
+.galleryPopup {
+  position: fixed;
+  width: 100vw;
+  left:0;
+  top: 5vh;
+  text-align: center;
+}
+.galleryPopupImg {
+  max-width: 100%;
+  max-height: 90vh;
+}
+.fadeout{
+  opacity: 30%;
+}
+
+i {
+  border: solid black;
+  border-width: 0 5px 5px 0;
+  display: inline-block;
+  padding: 25px;
+}
+i:hover {
+  cursor: pointer;
+}
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  float: left;
+}
+
+.left {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+  float: right;
+}
+
+.up {
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+}
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
 }

@@ -14,7 +14,7 @@ export default function ImageRight(props) {
     )
     gridList.push(
       <Grid key="img" item xs={12} sm={6} className="sideBox2">
-        <img alt="right" src={props.img} className="sideBoxImg2">
+        <img alt="right" src={props.img} className="sideBoxImg2" onClick={props.popup}>
         </img>
       </Grid>
     )

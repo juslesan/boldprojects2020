@@ -6,6 +6,10 @@
   .italics {
     font-size: 22px;
   }
+  .sideBoxImg2{
+    padding-left: 25px;
+    width: 100%
+  }
 }
 
 @media (max-width: 769px) {
@@ -30,12 +34,16 @@
     right: 5vw;
     width: 90vw;   
   }
+  .sideBoxImg2{
+    padding-left: 15px;
+    width: 100%
+  }
   
 }
 
 @media (max-width: 450px) {
   .content {
-    margin-top: 10vh;
+    margin-top: 5vh;
   }
 
   .pageHeader > h1 {
@@ -61,9 +69,25 @@
     margin: 0;
     margin-right: 0vw;
   }
+  .textSideBoxLeft2 {
+    padding: 0 5vw;
+    margin: 0;
+    margin-right: 0vw;
+  }
   .sideBoxImg {
     padding-top: 5px;
     width: 50%
+  }
+  .sideBoxImg2 {
+    padding-left: 5vw;
+    width: 85vw;
+  }
+  .sideBox2 {
+    /* background-color: white; */
+    font-size: 14px;
+    letter-spacing: 4px;
+    font-weight: 400;
+    padding: 0 0vw;
   }
   .imageBoxImg {
     padding-top: 50px;
@@ -72,6 +96,15 @@
     text-align: center;
     font-weight: 500;
     padding: 15vh 10vw;
+  }
+  .galleryPopup {
+    visibility: hidden;
+  }
+  .fadeout {
+    opacity: 100%;
+  }
+  i{
+    padding:15px;
   }
 }
 @media (max-width: 380px) {
@@ -84,6 +117,9 @@
     font-size: 13px;
     letter-spacing: 1px;
   }
+  .sideBox2{
+    font-size: 13px;
+  }
 }
 @media (max-width: 325px) {
   h1 {
@@ -94,5 +130,8 @@
   .italics {
     font-size: 12px;
     letter-spacing: 1px;
+    .sideBox2{
+      font-size: 12px;
+    }
   }
 }

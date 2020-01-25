@@ -3,8 +3,7 @@ import CssBaseline from '@material-ui/core/CssBaseline';
 import Container from '@material-ui/core/Container';
 import Frontpage from './pages/frontpage.js'
 import Bold100 from './pages/bold100'
-import Bold100Test from './pages/bold100test'
-import BoldVoyage from './pages/boldVoyage'
+import Portfolio from './pages/portfolio'
 import News from './pages/news'
 import Contact from './pages/contact'
 import Info from './pages/info'
@@ -41,13 +40,13 @@ export default function App() {
                         <Frontpage rollAmount={8}/> }
                     />
                     <Route path="/boldvoyage" render={() =>
-                        <BoldVoyage rollAmount={6} imgs={[voyage1, voyage2, voyage3, voyage4, voyage5, voyage6]} text={voyageText}/>}
+                        <Portfolio rollAmount={6} head="Bold Voyage" imgs={[voyage1, voyage2, voyage3, voyage4, voyage5, voyage6]} text={voyageText}/>}
                     />
                     <Route path="/bold100" render={() =>
                         <Bold100/>}
                     />
                     <Route path="/bold100test" render={() =>
-                        <Bold100Test rollAmount={5} imgs={[bold100test1,bold100test2,bold100test3,bold100test4,bold100test5]} text={bold100TestText}/>}
+                        <Portfolio rollAmount={5} head="Bold 100 TEST" imgs={[bold100test1,bold100test2,bold100test3,bold100test4,bold100test5]} text={bold100TestText}/>}
                     />
                     <Route path="/news" render={() =>
                         <News/>}
