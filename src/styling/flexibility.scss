@@ -1,4 +1,36 @@
-@media (max-width: 1024px) {
+@media (min-width: 2400px) {
+  h1 {
+    font-size: 72px;
+  }
+  .italics {
+    font-size: 36px;
+  }
+  .textSideBoxRight {
+    padding: 0;
+    padding-right: 0vw;
+  }
+  .textSideBoxLeft {
+    padding: 0;
+    padding-left: 0vw;
+  }
+}
+@media (min-width: 1800px) {
+  h1 {
+    font-size: 64px;
+  }
+  .italics {
+    font-size: 30px;
+  }
+  .textSideBoxRight {
+    padding: 0;
+    padding-right: 6vw;
+  }
+  .textSideBoxLeft {
+    padding: 0;
+    padding-left: 6vw;
+  }
+}
+@media (max-width: 1025px) {
 
   h1 {
     font-size: 44px;
@@ -9,6 +41,16 @@
   .sideBoxImg2{
     padding-left: 25px;
     width: 100%
+  }
+  .textSideBoxRight {
+    margin-left: 3vw;
+    padding-right: 15vw;
+    padding-left: 5vw;
+  }
+  .textSideBoxLeft {
+    margin-right: 3vw;
+    padding-left: 15vw;
+    padding-right: 5vw;
   }
 }
 
@@ -55,7 +97,7 @@
 
   }
   .italics {
-    font-size: 14px;
+    font-size: 15px;
     letter-spacing: 1px;
   }
   .textSideBoxRight {
@@ -76,7 +118,10 @@
   }
   .sideBoxImg {
     padding-top: 5px;
-    width: 50%
+    width: 75%
+  }
+  .imageBoxImg {
+    width: 75%;
   }
   .sideBoxImg2 {
     padding-left: 5vw;

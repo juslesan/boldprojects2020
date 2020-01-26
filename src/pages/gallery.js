@@ -26,15 +26,11 @@ export default class Contact extends React.Component {
 
   render() {
     return (
-      <Grid container spacing={4} alignItems="flex-start" justify="left">
-        <Grid item xs={12} className="pageHeader">
+      <Grid container spacing={3} alignItems="flex-start" justify="left">
+        <Grid item xs={12} alt="img0" className="pageHeader">
           <h1>Gallery</h1>
         </Grid>
-        <Grid item xs={12} sm={5}>
-          <img src={img1} className="gallery1Img"/>
-          <p className="galleryImgText"> Bold Voyage x Notes Magazine</p>
-        </Grid>
-        <Grid item xs={12} sm={7}>
+        <Grid item xs={12} sm={12}>
           <div className="videoCont">
               <Video autoPlay loop muted
                   controls={[]}
@@ -49,48 +45,49 @@ export default class Contact extends React.Component {
           <p className="galleryImgText">Bold Projects</p>
         </Grid>
 
-        <Grid item xs={12} sm={5}>
-          <img src={img4} className="gallery2Img"/>
+        <Grid item xs={12} sm={6}>
+          <img src={img1} alt="img1" className="gallery1Img"/>
+          <p className="galleryImgText"> Bold Voyage x Notes Magazine</p>
+        </Grid>
+  
+        <Grid item xs={12} sm={6}>
+          <img src={img4} alt="img2"className="gallery2Img"/>
           <p className="galleryImgText">Bold Voyage x Annette Tillander</p>
         </Grid>
-        <Grid item xs={12} sm={1}>
-        </Grid>
+
         <Grid item xs={12} sm={6} className="gallery3">
-          <img src={img6} className="gallery3Img"/>
+          <img src={img6} alt="img3" className="gallery3Img"/>
           <p className="galleryImgText">Bold Voyage x Fazer</p>
         </Grid>
 
-        <Grid item xs={12} sm={5}>
-          <img src={img8} className="gallery2Img"/>
+        <Grid item xs={12} sm={6}>
+          <img src={img8} alt="img4" className="gallery2Img"/>
           <p className="galleryImgText">Bold Voyage x Finnlines</p>
         </Grid>
-        <Grid item xs={12} sm={1}>
-        </Grid>
+
         <Grid item xs={12} sm={6} className="gallery3">
-          <img src={img7} className="gallery3Img"/>
+          <img src={img7} alt="img5" className="gallery3Img"/>
           <p className="galleryImgText">BOLD 100´19</p>
         </Grid>
 
-        <Grid item xs={12} sm={5} className="gallery3">
-          <img src={img9} className="gallery2Img"/>
+        <Grid item xs={12} sm={6} className="gallery3">
+          <img src={img9} alt="img6" className="gallery2Img"/>
           <p className="galleryImgText">Eco friendly boating</p>
         </Grid>
-        <Grid item xs={12} sm={1}>
+
+        <Grid item xs={12} sm={12} className="gallery4">
+          <img src={img2} alt="img7" className="gallery4Img"/>
+          <p className="galleryImgText">Last to appear, first to go</p>
         </Grid>
+
         <Grid item xs={12} sm={6} className="gallery3">
-          <img src={img3} className="gallery3Img"/>
+          <img src={img3} alt="img8" className="gallery3Img"/>
           <p className="galleryImgText">Modern farming takes the farming into account</p>
         </Grid>
- 
-        <Grid item xs={12} sm={12} className="gallery4">
-          <img src={img2} className="gallery4Img"/>
-          <p className="galleryImgText">Last to appear, first to go</p>
-        </Grid>
-        <Grid item xs={12} sm={4} className="">
-        </Grid>
-        <Grid item xs={12} sm={8} className="gallery3">
-          <img src={img5} className="gallery4Img"/>
-          <p className="galleryImgText">Last to appear, first to go</p>
+
+        <Grid item xs={12} sm={6} className="gallery3">
+          <img src={img5} alt="img9" className="gallery4Img"/>
+          <p className="galleryImgText">Lafevest</p>
         </Grid>
       </Grid>
     )
