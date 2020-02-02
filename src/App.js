@@ -49,10 +49,10 @@ export default class App extends React.Component {
                         <Frontpage language={this.state.lang} rollAmount={8}/> }
                     />
                     <Route path="/boldvoyage" render={() =>
-                        <Portfolio language={this.state.lang} rollAmount={6} head="Bold Voyage" imgs={[voyage1, voyage2, voyage3, voyage3, voyage3, voyage4, voyage5, voyage5, voyage6, voyage6]} text={voyageContent[this.state.lang]} rollTime={15000}/>}
+                        <Portfolio language={this.state.lang} rollAmount={6} head="Bold Voyage" imgs={[voyage1, voyage2, voyage3, voyage4, voyage5, voyage6]} text={voyageContent[this.state.lang]} rollTime={15000}/>}
                     />
                     <Route path="/bold100" render={() =>
-                        <Portfolio language={this.state.lang} rollAmount={3} head="Bold 100" imgs={[bold100,bold100,bold100,bold100,bold100]} text={bold100Content[this.state.lang]} rollTime={15000}/>}
+                        <Portfolio language={this.state.lang} rollAmount={3} head="Bold 100" imgs={[bold100]} text={bold100Content[this.state.lang]} rollTime={15000}/>}
                     />
                     <Route path="/bold100test" render={() =>
                         <Portfolio language={this.state.lang} rollAmount={5} head="Bold 100 TEST" imgs={[bold100test1,bold100test2,bold100test3,bold100test4,bold100test5]} text={bold100TestContent[this.state.lang]} rollTime={15000}/>}

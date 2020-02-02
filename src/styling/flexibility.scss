@@ -13,6 +13,9 @@
     padding: 0;
     padding-left: 0vw;
   }
+  .scrollableText {
+    height: 50vh;
+  }
 }
 @media (min-width: 1800px) {
   h1 {
@@ -28,6 +31,9 @@
   .textSideBoxLeft {
     padding: 0;
     padding-left: 6vw;
+  }
+  .scrollableText {
+    height: 55vh;
   }
 }
 @media (max-width: 1025px) {
@@ -51,6 +57,9 @@
     margin-right: 3vw;
     padding-left: 15vw;
     padding-right: 5vw;
+  }
+  .scrollableText {
+    height: 60vh;
   }
 }
 
@@ -80,7 +89,9 @@
     padding-left: 15px;
     width: 100%
   }
-  
+  .scrollableText {
+    height: 50vh;
+  }
 }
 
 @media (max-width: 450px) {
@@ -151,6 +162,9 @@
   i{
     padding:15px;
   }
+  .scrollableText {
+    height: 30vh;
+  }
 }
 @media (max-width: 380px) {
   h1 {
@@ -178,5 +192,8 @@
     .sideBox2{
       font-size: 12px;
     }
+  }
+  .scrollableText {
+    height: 25vh;
   }
 }

@@ -7,9 +7,11 @@ export default function ImageRight(props) {
     const gridList = []
     gridList.push(
       <Grid key="txt" item xs={12} sm={6} className="sideBox2">
-        <p className="textSideBoxLeft2">
-          {props.text}
-        </p>
+        <div className="scrollableText">
+          {props.text.map((t)=>
+            <p>{t}</p>
+          )}
+        </div>
       </Grid>
     )
     gridList.push(
