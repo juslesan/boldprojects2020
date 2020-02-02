@@ -2,7 +2,6 @@ import React from 'react';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import Container from '@material-ui/core/Container';
 import Frontpage from './pages/frontpage.js'
-import Bold100 from './pages/bold100'
 import Portfolio from './pages/portfolio'
 import News from './pages/news'
 import Contact from './pages/contact'
@@ -19,8 +18,10 @@ import voyage3 from './img/voyage/000828360002.jpg'
 import voyage4 from './img/voyage/000828390010.jpg'
 import voyage5 from './img/voyage/000828370013.jpg'
 import voyage6 from './img/voyage/000828370027.jpg'
-
-
+import bold100 from './img/bold100/rsz_boldmaalikuva.jpg'
+import bold100Content from './content/bold100'
+import voyageContent from './content/voyage'
+import bold100TestContent from './content/bold100Test'
 import {
   BrowserRouter as Router,
   Route,
@@ -38,8 +39,6 @@ export default class App extends React.Component {
         this.setState({lang: e.target.id})
     }
     render () {
-        const bold100TestText = "Many had shown interest for our projects and we wanted to give the opportunity to others to participate. In 2018 we planned a 100 km long route that went around Greater Helsinki. Two inspiring people, both named Emil, decided to take on the challenge. They ran for about 20 hours before reaching the goal." 
-        const voyageText = "The association’s second project was named Bold Voyage. We wanted to do something that would make an impact on the alarming state the Baltic Sea was in. We decided that we would row from Stockholm to Helsinki, and in partnership with Baltic Sea Action Group raise funds for a cleaner Baltic Sea. After 500 km rowed we arrived in Helsinki and the funds raised once again exceeded the 12000 euro mark."
         return (
             <React.Fragment>
             <CssBaseline />
@@ -47,19 +46,19 @@ export default class App extends React.Component {
             <Container maxWidth="md" className="content">
                 <Router>
                     <Route  exact path="/" render={() => 
-                        <Frontpage rollAmount={8}/> }
+                        <Frontpage language={this.state.lang} rollAmount={8}/> }
                     />
                     <Route path="/boldvoyage" render={() =>
-                        <Portfolio rollAmount={6} head="Bold Voyage" imgs={[voyage1, voyage2, voyage3, voyage4, voyage5, voyage6]} text={voyageText}/>}
+                        <Portfolio language={this.state.lang} rollAmount={6} head="Bold Voyage" imgs={[voyage1, voyage2, voyage3, voyage3, voyage3, voyage4, voyage5, voyage5, voyage6, voyage6]} text={voyageContent[this.state.lang]} rollTime={15000}/>}
                     />
                     <Route path="/bold100" render={() =>
-                        <Bold100/>}
+                        <Portfolio language={this.state.lang} rollAmount={3} head="Bold 100" imgs={[bold100,bold100,bold100,bold100,bold100]} text={bold100Content[this.state.lang]} rollTime={15000}/>}
                     />
                     <Route path="/bold100test" render={() =>
-                        <Portfolio rollAmount={5} head="Bold 100 TEST" imgs={[bold100test1,bold100test2,bold100test3,bold100test4,bold100test5]} text={bold100TestText}/>}
+                        <Portfolio language={this.state.lang} rollAmount={5} head="Bold 100 TEST" imgs={[bold100test1,bold100test2,bold100test3,bold100test4,bold100test5]} text={bold100TestContent[this.state.lang]} rollTime={15000}/>}
                     />
                     <Route path="/news" render={() =>
-                        <News/>}
+                        <News language={this.state.lang}/>}
                     />
                     <Route path="/info" render={() =>
                         <Info language={this.state.lang}/>}

@@ -2,6 +2,7 @@ import React from 'react';
 import Grid from '@material-ui/core/Grid';
 import {linkBalls} from '../components/common';
 import roller from './frontpageRoll/roller'
+import content from '../content/about'
 
 export default class Frontpage extends React.Component {
   constructor(props) {
@@ -36,7 +37,7 @@ export default class Frontpage extends React.Component {
         <Grid item xs={12} className="pageHeader">
           <h1>Bold Projects</h1>
         </Grid>
-        {roller(this.state.currentRoll)}
+        {roller(this.state.currentRoll, content, this.props.language)}
         <Grid container justify="center" alignItems="center" className="frontpageRoll">
           {linkBalls(this.state.rollAmount, this.state.currentRoll, this.changeCurrentRoll)}
         </Grid>

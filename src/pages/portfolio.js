@@ -12,7 +12,7 @@ export default class Portfolio extends React.Component {
       currentRoll: 0,
       rollAmount: 0
     }
-    this.rollTime = 6000
+    this.rollTime = this.props.rollTime
     this.rollInterval = null
   }
 

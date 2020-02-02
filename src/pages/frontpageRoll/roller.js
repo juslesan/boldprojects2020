@@ -11,7 +11,7 @@ import img6 from '../../img/voyage/000828370013.jpg'
 import img7 from '../../img/voyage/000828360004.jpg'
 import img8 from '../../img/voyage/000828370027.jpg'
 
-export default function roller(currentRoll) {
+export default function roller(currentRoll, content, language) {
   if (currentRoll === 0) {
     return(
       <ImageRight text="Lorem lipsum lörs lärä toimiiko tämä no hyvä" img={img1}/>
