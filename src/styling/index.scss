@@ -68,6 +68,12 @@ code {
   color: black;
   text-decoration: none;
 }
+.menuPortfolioLink:hover {
+  cursor: pointer; 
+}
+.highlight {
+  text-decoration: underline;
+}
 
 .threeBars {
   display: inline-block;

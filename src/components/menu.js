@@ -1,5 +1,6 @@
 import React from 'react'
 import PortfolioLinks from './portfolioLinks'
+import LanguageLinks from './languageLinks'
 const classNames = require('classnames');
 
 export default function Menu(props) {
@@ -15,7 +16,7 @@ export default function Menu(props) {
         <PortfolioLinks/>
         <a className="menuLink" href="/gallery"> Gallery</a>
         <a className="menuLink" href="/news"> Newspaper</a>
-
+        <LanguageLinks language={props.language} langHandler={props.langHandler}/>
       </div>
     </div>
   )

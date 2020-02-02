@@ -21,7 +21,6 @@ export default class ThreeBars extends React.Component {
       'threeBars': true,
       'change': this.state.toggleClass
     })
-
     return(
       <div>
         <div className={cls} onClick={this.toggler}>
@@ -29,7 +28,7 @@ export default class ThreeBars extends React.Component {
           <div className="bar2"></div>
           <div className="bar3"></div>
         </div>
-        <Menu toggleClass={this.state.toggleClass} toggler={this.toggler}/>
+        <Menu toggleClass={this.state.toggleClass} toggler={this.toggler} language={this.props.language} langHandler={this.props.langHandler}/>
       </div>
     )
   }
