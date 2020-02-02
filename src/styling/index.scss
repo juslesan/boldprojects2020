@@ -322,18 +322,18 @@ i:hover {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 5px grey; 
-  border-radius: 2px;
+  box-shadow: inset 0 0 5px rgb(120, 120, 120); 
+  border-radius: 4px;
 }
  
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  box-shadow: inset 0 0 10px rgb(53, 53, 53); 
-  background: rgb(94, 94, 94); 
-  border-radius: 2px;
+  box-shadow: inset 0 0 10px rgb(76, 79, 97); 
+  background: rgb(255, 255, 255); 
+  border-radius: 4px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #d6e8e9; 
+  background: #f1efff; 
 }
