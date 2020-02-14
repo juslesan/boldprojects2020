@@ -23,6 +23,7 @@ export default class Portfolio extends React.Component {
   changeCurrentRoll = (id, e) => {
     this.setState({currentRoll: id})
   }
+
   galleryToggler = () => {
     if (this.state.galleryToggle) {
       this.setState({galleryToggle: false})
@@ -30,6 +31,7 @@ export default class Portfolio extends React.Component {
       this.setState({galleryToggle: true})
     }
   }
+  
   render() {
     clearInterval(this.rollInterval)
     this.rollInterval = setInterval(() => {

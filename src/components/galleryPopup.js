@@ -32,12 +32,18 @@ export default class PortfolioLInks extends React.Component {
               <i className="arrow left" onClick={this.rollLeft}/>
             </Grid>
             <Grid key="txt" item xs={12} sm={6} >
-              <img alt="galleryPopup" src={this.props.imgs[this.state.current]} className="galleryPopupImg" onClick={this.props.galleryToggler}/>
+              <img alt="galleryPopup" src={this.props.imgs[this.state.current]} className="galleryPopupImg"/>
             </Grid>
             <Grid key="txt" item xs={12} sm={3} className="">
               <i className="arrow right" onClick={this.rollRight}/>
             </Grid>
-          </Grid>        
+            <Grid>
+              <p className="closeGallery" onClick={this.props.galleryToggler}>
+                Close
+              </p>
+            </Grid>
+          </Grid>
+
         </div>
         :
         <div></div>

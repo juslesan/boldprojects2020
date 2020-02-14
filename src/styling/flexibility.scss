@@ -61,6 +61,9 @@
   .scrollableText {
     height: 60vh;
   }
+  .contactFrame {
+    font-size: 14px;
+  }
 }
 
 @media (max-width: 769px) {
@@ -92,6 +95,13 @@
   .scrollableText {
     height: 50vh;
   }
+  .contactInfoBottom {
+    position: relative;
+    top: 0px;
+  }
+  .contactFrame {
+    font-size: 12px;
+  }
 }
 
 @media (max-width: 450px) {
@@ -116,7 +126,18 @@
     margin: 0;
     margin-left: 0vw;
   }
-
+  .contactImg {
+    width:90%;
+  }
+  .contactFrame {
+    font-size: 16px;
+  }
+  .contactInfoBottom {
+    margin-left: 5%;
+  }
+  .contactInfoTop {
+    margin-left: 5%;
+  }
   .textSideBoxLeft {
     padding: 0 10vw;
     margin: 0;
@@ -164,6 +185,8 @@
   }
   .scrollableText {
     height: 30vh;
+    width: 88%;
+    margin-left: 6%;
   }
 }
 @media (max-width: 380px) {
