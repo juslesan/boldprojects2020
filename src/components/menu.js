@@ -15,7 +15,7 @@ export default function Menu(props) {
         <a className="menuLink" href="/info"> Info</a>
         <PortfolioLinks/>
         <a className="menuLink" href="/gallery"> Gallery</a>
-        <a className="menuLink" href="/news"> Newspaper</a>
+        {/* <a className="menuLink" href="/news"> Newspaper</a> */}
         <LanguageLinks language={props.language} langHandler={props.langHandler}/>
       </div>
     </div>
