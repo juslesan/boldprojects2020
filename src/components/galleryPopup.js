@@ -27,7 +27,7 @@ export default class PortfolioLInks extends React.Component {
       <div>
         {this.props.visible ? 
         <div className="galleryPopup">
-          <Grid container spacing={3} alignItems="center" justify="center">
+          <Grid container spacing={0} alignItems="center" justify="center">
             <Grid key="txt" item xs={12} sm={3} className="">
               <i className="arrow left" onClick={this.rollLeft}/>
             </Grid>
