@@ -42,7 +42,7 @@ export default class App extends React.Component {
         return (
             <React.Fragment>
             <CssBaseline />
-            <Container maxWidth="lg" className="content">
+            <Container maxWidth="md" className="content">
                 <ThreeBars language={this.state.lang} langHandler={this.handleLang}/>
 
                 <Router>
