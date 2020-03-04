@@ -34,7 +34,7 @@ export default class Frontpage extends React.Component {
     }, this.rollTime)
     return (
       <Grid container spacing={3} alignItems="center" justify="center">
-        <Grid item xs={12} className="pageHeader">
+        <Grid item xs={12} alt="img0" className="pageHeader">
           <h1>Bold Projects</h1>
         </Grid>
         {roller(this.state.currentRoll, content, this.props.language)}

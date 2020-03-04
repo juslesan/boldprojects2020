@@ -16,6 +16,17 @@
   .scrollableText {
     height: 50vh;
   }
+  .headOnTopBoxWide {
+    height: auto;
+    width: 90vw;
+    text-align: center;
+  
+    .headOnTopImage {
+      height: auto;
+      width: 100%;
+
+    }
+  }
 }
 @media (min-width: 1800px) {
   h1 {
@@ -173,6 +184,17 @@
     text-align: center;
     font-weight: 500;
     padding: 15vh 10vw;
+  }
+  .headOnTopBoxWide {
+    height: auto;
+    width: 90vw;
+    text-align: center;
+  
+    .headOnTopImage {
+      height: auto;
+      width: 100%;
+
+    }
   }
   .galleryPopup {
     visibility: hidden;

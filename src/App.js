@@ -42,11 +42,12 @@ export default class App extends React.Component {
         return (
             <React.Fragment>
             <CssBaseline />
-            <ThreeBars language={this.state.lang} langHandler={this.handleLang}/>
-            <Container maxWidth="md" className="content">
+            <Container maxWidth="lg" className="content">
+                <ThreeBars language={this.state.lang} langHandler={this.handleLang}/>
+
                 <Router>
                     <Route  exact path="/" render={() => 
-                        <Frontpage language={this.state.lang} rollAmount={8}/> }
+                        <Frontpage language={this.state.lang} rollAmount={7}/> }
                     />
                     <Route path="/boldvoyage" render={() =>
                         <Portfolio language={this.state.lang} rollAmount={6} head="Bold Voyage" imgs={[voyage1, voyage2, voyage3, voyage4, voyage5, voyage6]} text={voyageContent[this.state.lang]} rollTime={6000}/>}
