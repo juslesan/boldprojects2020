@@ -68,7 +68,7 @@ export default class App extends React.Component {
                         <Gallery/>}
                     />
                     <Route path="/contact" render={() =>
-                        <Contact/>}
+                        <Contact language={this.state.lang}/>}
                     />
                     {/* <Route path="/newspaper/1" render={() =>
                         <Issue1/>}

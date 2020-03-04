@@ -5,6 +5,7 @@ import Bernhard from '../img/contact/Bernhard.jpg'
 import Eddie from '../img/contact/Eddie.jpg'
 import Linus from '../img/contact/Linus.jpg'
 import ContactFrame from '../components/contactFrame'
+import content from '../content/contact.json'
 export default class Contact extends React.Component {
   constructor(props) {
     super(props)
@@ -24,7 +25,7 @@ export default class Contact extends React.Component {
           <h1>Contact</h1>
         </Grid>
         <Grid item xs={12} sm={6} >
-          <p className="contactInfoTop">Vi är öppna för samarbeten:</p>
+        <p className="contactInfoTop">{content[this.props.language]}</p>
         </Grid>
         <Grid item xs={12} sm={6} >
           <p className="contactInfoTop">Instagram: bold.projects</p>
