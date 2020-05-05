@@ -27,16 +27,26 @@ import {
   Route,
 } from 'react-router-dom'
 import ThreeBars from './components/threeBars.js';
+import ls from 'local-storage'
 
 export default class App extends React.Component {
     constructor(props) {
       super(props)
       this.state = {
-        lang: "eng"
+        lang: null
       }
     }
+
+    componentDidMount() {
+        this.setState({
+          lang: ls.get('lang') || "eng"
+        })
+      }
+
     handleLang = (e) => {
         this.setState({lang: e.target.id})
+        ls.set('lang', e.target.id);
+
     }
     render () {
         return (
@@ -53,7 +63,7 @@ export default class App extends React.Component {
                         <Portfolio language={this.state.lang} rollAmount={6} head="Bold Voyage" imgs={[voyage1, voyage2, voyage3, voyage4, voyage5, voyage6]} text={voyageContent[this.state.lang]} rollTime={6000}/>}
                     />
                     <Route path="/bold100" render={() =>
-                        <Portfolio language={this.state.lang} rollAmount={3} head="Bold 100" imgs={[bold100]} text={bold100Content[this.state.lang]} rollTime={6000}/>}
+                        <Portfolio language={this.state.lang} rollAmount={1} head="Bold 100" imgs={[bold100]} text={bold100Content[this.state.lang]} rollTime={6000}/>}
                     />
                     <Route path="/bold100test" render={() =>
                         <Portfolio language={this.state.lang} rollAmount={5} head="Bold 100 TEST" imgs={[bold100test1,bold100test2,bold100test3,bold100test4,bold100test5]} text={bold100TestContent[this.state.lang]} rollTime={6000}/>}

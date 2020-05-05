@@ -34,8 +34,8 @@ export default class LanguageLinks extends React.Component {
         {this.state.toggleClass ? 
         <div>
           <a className={engCls} id="eng" onClick={this.props.langHandler}> English</a>
-          <a className={finCls} id="fin" onClick={this.props.langHandler}> Finnish</a>
-          <a className={sweCls} id="swe" onClick={this.props.langHandler}> Swedish</a>
+          <a className={finCls} id="fin" onClick={this.props.langHandler}> Suomi</a>
+          <a className={sweCls} id="swe" onClick={this.props.langHandler}> Svenska</a>
         </div>
         :
         <div></div>
