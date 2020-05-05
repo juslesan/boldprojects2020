@@ -31,7 +31,7 @@ export default class Contact extends React.Component {
           <p className="contactInfoTop">Instagram: bold.projects</p>
         </Grid>
         <Grid item xs={12} sm={6} >
-          <p className="contactInfoBottom"> info@boldprojects</p>
+          <p className="contactInfoBottom"> info@boldprojects.com</p>
         </Grid>
         <Grid item xs={12} sm={6} >
           <p className="contactInfoBottom"> Facebook: Bold Projects</p>
