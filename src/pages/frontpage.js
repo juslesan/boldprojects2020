@@ -3,7 +3,7 @@ import Grid from '@material-ui/core/Grid';
 import {linkBalls} from '../components/common';
 import roller from './frontpageRoll/roller'
 import content from '../content/about'
-
+import boldgif from '../img/image00001.gif'
 export default class Frontpage extends React.Component {
   constructor(props) {
     super(props)
@@ -33,14 +33,17 @@ export default class Frontpage extends React.Component {
                     )
     }, this.rollTime)
     return (
+
       <Grid container spacing={3} alignItems="center" justify="center">
-        <Grid item xs={12} alt="img0" className="pageHeader">
+        {/* <Grid item xs={12} alt="img0" className="pageHeader">
           <h1>Bold Projects</h1>
         </Grid>
         {roller(this.state.currentRoll, content, this.props.language)}
         <Grid container justify="center" alignItems="center" className="frontpageRoll">
           {linkBalls(this.state.rollAmount, this.state.currentRoll, this.changeCurrentRoll)}
-        </Grid>
+        </Grid> */}
+        <img className="frontGif" src={boldgif}></img>
+
       </Grid>
     )
   }

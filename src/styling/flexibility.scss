@@ -113,6 +113,9 @@
   .contactFrame {
     font-size: 12px;
   }
+  .frontGif {
+    margin-top: 5%;
+  }
 }
 
 @media (max-width: 450px) {
@@ -210,6 +213,9 @@
     width: 88%;
     margin-left: 6%;
   }
+  .frontGif {
+    margin-top: 25%;
+  }
 }
 @media (max-width: 380px) {
   h1 {
@@ -241,4 +247,5 @@
   .scrollableText {
     height: 25vh;
   }
+
 }
