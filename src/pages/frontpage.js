@@ -1,8 +1,8 @@
 import React from 'react';
 import Grid from '@material-ui/core/Grid';
-import {linkBalls} from '../components/common';
-import roller from './frontpageRoll/roller'
-import content from '../content/about'
+// import {linkBalls} from '../components/common';
+// import roller from './frontpageRoll/roller'
+// import content from '../content/about'
 import boldgif from '../img/image00001.gif'
 export default class Frontpage extends React.Component {
   constructor(props) {
