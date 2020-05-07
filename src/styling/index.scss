@@ -389,7 +389,7 @@ i:hover {
 .scrollableText::-webkit-scrollbar-button {display:none}
 
 .testtt{
-  position: relative;
+  position: absolute;
   overflow: hidden;
   height: 100%;
   width: 100%;
@@ -397,5 +397,20 @@ i:hover {
 
 .frontGif {
   margin-top: 5%;
-  width: 80%;
+  width: 70%;
+  display:block;
+  margin:auto;
+}
+.map {
+  width: 100%;
+}
+
+.linkButton {
+  width: 30%;
+  display:block;
+  margin:auto;
+}
+.linkButton:hover {
+  opacity: 50%;
+  
 }

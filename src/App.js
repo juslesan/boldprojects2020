@@ -7,6 +7,7 @@ import News from './pages/news'
 import Contact from './pages/contact'
 import Info from './pages/info'
 import Gallery from './pages/gallery'
+import Club from './pages/club'
 import bold100test1 from './img/bold100test/DSC06410.jpg'
 import bold100test2 from './img/bold100test/DSC06425.jpg'
 import bold100test3 from './img/bold100test/DSC06486.jpg'
@@ -73,6 +74,9 @@ export default class App extends React.Component {
                     />
                     <Route path="/info" render={() =>
                         <Info language={this.state.lang}/>}
+                    />
+                    <Route path="/club" render={() =>
+                        <Club language={this.state.lang}/>}
                     />
                     <Route path="/gallery" render={() =>
                         <Gallery/>}
