@@ -35,15 +35,13 @@ export default class Frontpage extends React.Component {
     }, this.rollTime)
     return (
 
-      <Grid container spacing={1} alignItems="center" justify="center">
-        <Grid item xs={12} alt="img0" className="pageHeader">
+      <Grid container spacing={3} alignItems="center" justify="center">
+        <Grid item xs={12} className="pageHeader">
           <img className="frontGif" src={boldgif}></img>
         </Grid>
-        <Grid item xs={12} alt="img0" className="pageHeader">
-          <a className="linkButtonLink" href="/club">
-            <img className="linkButton" src={linkButton}></img>
-          </a>
-        </Grid>
+        <a className="linkButtonLink" href="/club">
+          <img className="linkButton" src={linkButton}></img>
+        </a>
       </Grid>
     )
   }

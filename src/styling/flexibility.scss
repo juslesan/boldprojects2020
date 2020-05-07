@@ -114,7 +114,11 @@
     font-size: 12px;
   }
   .frontGif {
+    width: 50%;
     margin-top: 5%;
+  }
+  .linkButton {
+    width: 20%;
   }
 }
 
@@ -215,6 +219,9 @@
   }
   .frontGif {
     margin-top: 25%;
+  }
+  .linkButton {
+    width: 25%;
   }
 }
 @media (max-width: 380px) {
