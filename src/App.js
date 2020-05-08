@@ -23,6 +23,8 @@ import bold100 from './img/bold100/rsz_boldmaalikuva.jpg'
 import bold100Content from './content/bold100'
 import voyageContent from './content/voyage'
 import bold100TestContent from './content/bold100Test'
+import clubContent from './content/club'
+
 import {
   BrowserRouter as Router,
   Route,
@@ -76,7 +78,7 @@ export default class App extends React.Component {
                         <Info language={this.state.lang}/>}
                     />
                     <Route path="/club" render={() =>
-                        <Club language={this.state.lang}/>}
+                        <Club language={this.state.lang} text={clubContent[this.state.lang]}/>}
                     />
                     <Route path="/gallery" render={() =>
                         <Gallery/>}

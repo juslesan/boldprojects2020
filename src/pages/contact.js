@@ -25,7 +25,7 @@ export default class Contact extends React.Component {
           <h1>Contact</h1>
         </Grid>
         <Grid item xs={12} sm={6} >
-        <p className="contactInfoTop">{content[this.props.language]}</p>
+          <p className="contactInfoTop">{content[this.props.language]}</p>
         </Grid>
         <Grid item xs={12} sm={6} >
           <p className="contactInfoTop">Instagram: bold.projects</p>
@@ -38,7 +38,7 @@ export default class Contact extends React.Component {
         </Grid>
         <ContactFrame img={Valtteri} title="President" name="Valtteri Ikäheimo" phone="+358 45 650 5715"/>
         <ContactFrame img={Eddie} title="Head of Communication" name="Eddie Myrskog" phone="+358 40 531 6455"/>
-        <ContactFrame img={Linus} title="Vice Precident" name="Linus Lehto" phone="+358 40 059 6392"/>
+        <ContactFrame img={Linus} title="Vice President" name="Linus Lehto" phone="+358 40 059 6392"/>
         <ContactFrame img={Bernhard} title="Creative" name="Bernhard Forstén" phone="+358 40 085 8697"/>
       </Grid>
     )
