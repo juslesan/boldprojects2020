@@ -105,7 +105,7 @@ export default class Contact extends React.Component {
         <Grid item xs={12} sm={6} className="gallery3">
           <Fade>
             <img src={img5} alt="img9" className="gallery4Img"/>
-            <p className="galleryImgText">Lafevest</p>
+            <p className="galleryImgText">Lifevest</p>
           </Fade>
         </Grid>
       </Grid>
