@@ -120,6 +120,19 @@
   .linkButton {
     width: 20%;
   }
+  .linkButtonLeft {
+    width: 30%;
+    position: relative;
+    margin-right: 2vw;
+    float: right;
+  }
+  
+  .linkButtonRight {
+    width: 30%;
+    position: relative;
+    margin-left: 2vw;
+    float: left;
+  }
 }
 
 @media (max-width: 450px) {
@@ -222,6 +235,20 @@
   }
   .linkButton {
     width: 25%;
+  }
+  .linkButtonLeft {
+    width: 30%;
+    float: none;
+    display:block;
+    margin:auto;
+  }
+  
+  .linkButtonRight {
+    top: 2vw;
+    width: 30%;
+    float: none;
+    display:block;
+    margin:auto;
   }
 }
 @media (max-width: 380px) {

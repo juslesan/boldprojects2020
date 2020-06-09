@@ -424,7 +424,42 @@ i:hover {
   display:block;
   margin:auto;
 }
+.linkButtonLeft {
+  width: 50%;
+  position: relative;
+  margin-right: 2vw;
+  float: right;
+}
+
+.linkButtonRight {
+  width: 50%;
+  position: relative;
+  margin-left: 2vw;
+  float: left;
+}
 .linkButton:hover {
   opacity: 50%;
   
+}
+.project2020text {
+  font-weight: 500;
+}
+.project2020textFirst {
+  font-weight: 500;
+  margin-bottom: 0;
+}
+.mieliLink {
+  position: relative;
+  top: 5vh;
+}
+.mieliLinkImg {
+  position: relative;
+  width: 60%;
+  display:block;
+  margin:auto;
+  margin-bottom: 10vw;
+}
+
+.trailImg {
+  width: 100%;
 }
