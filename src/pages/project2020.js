@@ -17,15 +17,15 @@ export default class Project2020 extends React.Component {
       this.props.text ?
         <Grid container spacing={6} alignItems="top" justify="center">
           <Grid item xs={12} className="pageHeader">
-            <h1>Bold Trail Run</h1>
+            <h1>Bold Offroad</h1>
           </Grid>
           <Grid item xs={12} sm={6}>
-            <p className="project2020textFirst">Bold Trail Run</p>
+            <p className="project2020textFirst">Bold Offroad</p>
             <p className="project2020text" style={{marginTop: "0"}}>{this.props.text[0]}</p>
             <p className="project2020text">{this.props.text[1]}</p>
             <p className="project2020text">{this.props.text[2]}</p>
 
-            <a href="/project2020" className="mieliLink">
+            <a href="https://potti.mieli.fi/oma-mielipotti/16-2675" className="mieliLink">
               <img src={mieli} className="mieliLinkImg"/>
             </a>
           </Grid>
