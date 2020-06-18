@@ -5,6 +5,8 @@ import Grid from '@material-ui/core/Grid';
 // import content from '../content/about'
 import boldgif from '../img/image00001.gif'
 import linkButton from '../img/club/club_button.png'
+import project2020 from '../img/project2020/project2020.png'
+
 export default class Frontpage extends React.Component {
   constructor(props) {
     super(props)
@@ -35,13 +37,20 @@ export default class Frontpage extends React.Component {
     }, this.rollTime)
     return (
 
-      <Grid container spacing={3} alignItems="center" justify="center">
+      <Grid container spacing={0} alignItems="center" justify="center">
         <Grid item xs={12} className="pageHeader">
           <img className="frontGif" src={boldgif}></img>
         </Grid>
-        <a className="linkButtonLink" href="/club">
-          <img className="linkButton" src={linkButton}></img>
-        </a>
+        <Grid item xs={12} sm={6}>
+          <a className="linkButtonLink" href="/project2020">
+            <img className="linkButtonLeft" src={project2020}></img>
+          </a>
+        </Grid>
+        <Grid item xs={12} sm={6}>
+          <a className="linkButtonLink" href="/club">
+            <img className="linkButtonRight" src={linkButton}></img>
+          </a>
+        </Grid>
       </Grid>
     )
   }
