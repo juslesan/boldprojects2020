@@ -27,23 +27,20 @@ export default class Club extends React.Component {
               <p>
                 {this.props.text[2]}
               </p>
-              <p>
+              <p className="clubDayFirst">
                 {this.props.text[3]}
               </p>
-              <p className="clubDayFirst">
+              <p className="clubDay">
                 {this.props.text[4]}
               </p>
-              <p className="clubDay">
+              <p className="clubDayLast">
                 {this.props.text[5]}
               </p>
-              <p className="clubDay">
+              <p>
                 {this.props.text[6]}
               </p>
-              <p className="clubDayLast">
-                {this.props.text[7]}
-              </p>
               <p>
-                {this.props.text[8]}
+                {this.props.text[7]}
               </p>
           </Grid>
     
