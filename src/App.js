@@ -9,6 +9,7 @@ import Info from './pages/info'
 import Gallery from './pages/gallery'
 import Club from './pages/club'
 import Project2020 from './pages/project2020'
+import Project2021 from './pages/project2021'
 import bold100test1 from './img/bold100test/DSC06410.jpg'
 import bold100test2 from './img/bold100test/DSC06425.jpg'
 import bold100test3 from './img/bold100test/DSC06486.jpg'
@@ -26,6 +27,7 @@ import voyageContent from './content/voyage'
 import bold100TestContent from './content/bold100Test'
 import clubContent from './content/club'
 import project2020Content from './content/project2020'
+import project2021Content from './content/project2021'
 import {
   BrowserRouter as Router,
   Route,
@@ -88,6 +90,9 @@ export default class App extends React.Component {
                     />
                     <Route path="/project2020" render={() =>
                         <Project2020 language={this.state.lang} text={project2020Content[this.state.lang]}/>}
+                    />
+                    <Route path="/project2021" render={() =>
+                        <Project2021 language={this.state.lang} text={project2021Content[this.state.lang]}/>}
                     />
                     {/* <Route path="/newspaper/1" render={() =>
                         <Issue1/>}
