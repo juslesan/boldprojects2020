@@ -1,7 +1,6 @@
 import React from 'react';
 import Grid from '@material-ui/core/Grid';
-import roller from './portfolioRoll/roller'
-import GalleryPopup from '../components/galleryPopup'
+import ImageRight from './portfolioRoll/imageRight'
 const classNames = require('classnames');
 
 export default class Portfolio extends React.Component {
@@ -46,13 +45,21 @@ export default class Portfolio extends React.Component {
     })
     return (
       <div>
+        <div>
+          <div className="splitscreen leftSplit2">
+          </div>
+
+          <div className="splitscreen rightSplit">
+          </div>
+        </div>
         <Grid container spacing={3} alignItems="flex-start" justify="center" className={cls}>
           <Grid item xs={12} className="pageHeader">
             <h1>{this.props.head}</h1>
           </Grid>
-          {roller(this.state.currentRoll, this.props.imgs, this.props.text, this.galleryToggler)}
+          <ImageRight text={this.props.text} imgs={this.props.imgs}/>
+
         </Grid>
-        <GalleryPopup imgs={this.props.imgs} current={this.state.currentRoll} visible={this.state.galleryToggle} galleryToggler={this.galleryToggler}/>
+        {/* <GalleryPopup imgs={this.props.imgs} current={this.state.currentRoll} visible={this.state.galleryToggle} galleryToggler={this.galleryToggler}/> */}
       </div>
     )
   }

@@ -36,22 +36,27 @@ export default class Frontpage extends React.Component {
                     )
     }, this.rollTime)
     return (
+      <div>
+        <div>
+          <div className="splitscreen leftSplit">
+          </div>
 
-      <Grid container spacing={0} alignItems="center" justify="center">
-        <Grid item xs={12} className="pageHeader">
-          <img className="frontGif" src={boldgif}></img>
+          <div className="splitscreen rightSplit">
+          </div>
+        </div>
+
+        <Grid container spacing={10} alignItems="center" justify="center" className="frontcont">
+          {/* <Grid item xs={12} sm={12}>
+            <div style={{height: "7vh"}}></div>
+          </Grid> */}
+          <Grid item xs={12} sm={6}>
+              <img className="frontGif" src={boldgif}></img>
+          </Grid>
+          <Grid item xs={12} sm={6}>
+            <h1 className="frontFont">Kaikilla on oikeus hyvään elämään.</h1>
+          </Grid>
         </Grid>
-        <Grid item xs={12} sm={6}>
-          <a className="linkButtonLink" href="/project2020">
-            <img className="linkButtonLeft" src={project2020}></img>
-          </a>
-        </Grid>
-        <Grid item xs={12} sm={6}>
-          <a className="linkButtonLink" href="/club">
-            <img className="linkButtonRight" src={linkButton}></img>
-          </a>
-        </Grid>
-      </Grid>
+      </div>
     )
   }
 }

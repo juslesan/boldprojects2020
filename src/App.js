@@ -56,9 +56,8 @@ export default class App extends React.Component {
         return (
             <React.Fragment>
             <CssBaseline />
-            <Container maxWidth="md" className="content">
+            <Container maxWidth={false} className="content">
                 <ThreeBars language={this.state.lang} langHandler={this.handleLang}/>
-
                 <Router>
                     <Route  exact path="/" render={() => 
                         <Frontpage language={this.state.lang} rollAmount={7}/> }

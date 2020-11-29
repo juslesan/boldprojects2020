@@ -20,14 +20,16 @@ export default class Project2020 extends React.Component {
             <h1>Bold Offroad</h1>
           </Grid>
           <Grid item xs={12} sm={6}>
-            <p className="project2020textFirst">Bold Offroad</p>
-            <p className="project2020text" style={{marginTop: "0"}}>{this.props.text[0]}</p>
-            <p className="project2020text">{this.props.text[1]}</p>
-            <p className="project2020text">{this.props.text[2]}</p>
+            <div className="project2020Texts">
+              <p className="project2020textFirst">Bold Offroad</p>
+              <p className="project2020text" style={{marginTop: "0"}}>{this.props.text[0]}</p>
+              <p className="project2020text">{this.props.text[1]}</p>
+              <p className="project2020text">{this.props.text[2]}</p>
 
-            <a href="https://potti.mieli.fi/oma-mielipotti/16-2675" className="mieliLink">
-              <img src={mieli} className="mieliLinkImg"/>
-            </a>
+              <a href="https://potti.mieli.fi/oma-mielipotti/16-2675" className="mieliLink">
+                <img src={mieli} className="mieliLinkImg"/>
+              </a>
+            </div>
           </Grid>
           <Grid item xs={12} sm={6}>
             <img src={trail} className="trailImg"/>

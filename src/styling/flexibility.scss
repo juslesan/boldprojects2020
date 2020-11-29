@@ -114,8 +114,7 @@
     font-size: 12px;
   }
   .frontGif {
-    width: 50%;
-    margin-top: 5%;
+    width: 100%;
   }
   .linkButton {
     width: 20%;
@@ -250,6 +249,36 @@
     float: none;
     display:block;
     margin:auto;
+  }
+  .clubTexts {
+    padding-left: 0
+  }
+  .map {
+    padding-left: 0%;
+    width: 100%;
+  }
+  .project2020Texts {
+    padding-left: 0%;
+  }  
+  .trailImg {
+    padding-left: 0%;
+    width: 100%;
+  }
+  .mieliLinkImg {
+    position: relative;
+    width: 60%;
+    margin-bottom: 10vw;
+    margin-top: 5vw;
+  }
+
+  .splitscreen {
+    height: 0%;
+    width: 0%;
+    position: fixed;
+    z-index: -99;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 0px;
   }
 }
 @media (max-width: 380px) {

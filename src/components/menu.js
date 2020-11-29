@@ -13,6 +13,8 @@ export default function Menu(props) {
         <a className="menuLink" href="/"> Home</a>
         <a className="menuLink" href="/contact"> Contact</a>
         <a className="menuLink" href="/info"> Info</a>
+        <a className="menuLink" href="/project2020"> Project2020</a>
+        <a className="menuLink" href="/club"> Bold Running Club</a>
         <PortfolioLinks/>
         <a className="menuLink" href="/gallery"> Gallery</a>
         {/* <a className="menuLink" href="/news"> Newspaper</a> */}
