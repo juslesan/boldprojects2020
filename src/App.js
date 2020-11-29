@@ -21,6 +21,15 @@ import voyage3 from './img/voyage/000828360002.jpg'
 import voyage4 from './img/voyage/000828390010.jpg'
 import voyage5 from './img/voyage/000828370013.jpg'
 import voyage6 from './img/voyage/000828370027.jpg'
+import offroad1 from './img/offroad/1.jpg'
+import offroad2 from './img/offroad/2.jpg'
+import offroad3 from './img/offroad/3.jpg'
+import offroad4 from './img/offroad/4.jpg'
+import offroad5 from './img/offroad/5.jpg'
+import offroad6 from './img/offroad/6.jpg'
+import offroad7 from './img/offroad/7.jpg'
+import offroad8 from './img/offroad/8.jpg'
+import offroad9 from './img/offroad/9.jpg'
 import bold100 from './img/bold100/rsz_boldmaalikuva.jpg'
 import bold100Content from './content/bold100'
 import voyageContent from './content/voyage'
@@ -72,6 +81,9 @@ export default class App extends React.Component {
                     />
                     <Route path="/bold100test" render={() =>
                         <Portfolio language={this.state.lang} rollAmount={5} head="Bold 100 TEST" imgs={[bold100test1,bold100test2,bold100test3,bold100test4,bold100test5]} text={bold100TestContent[this.state.lang]} rollTime={6000}/>}
+                    />
+                    <Route path="/offroad" render={() =>
+                        <Portfolio language={this.state.lang} rollAmount={5} head="Bold Offroad" imgs={[offroad1, offroad2, offroad3, offroad4, offroad5, offroad6, offroad7, offroad8, offroad9]} text={bold100TestContent[this.state.lang]} rollTime={6000}/>}
                     />
                     <Route path="/news" render={() =>
                         <News language={this.state.lang}/>}
