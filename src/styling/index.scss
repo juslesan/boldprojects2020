@@ -377,25 +377,7 @@ i:hover {
 .contactPhone {
   margin-top: 0;
 }
-.scrollableText::-webkit-scrollbar {
-  background-color:#fafafa;
-  width:16px
-}
 
-/* background of the scrollbar except button or resizer */
-.scrollableText::-webkit-scrollbar-track {
-  background-color:#f4972d2e;
-}
-
-/* scrollbar itself */
-.scrollableText::-webkit-scrollbar-thumb {
-  background-color:#babac0;
-  border-radius:16px;
-  border:3px solid #f4972d2e;
-}
-
-/* set button(top and bottom of the scrollbar) */
-.scrollableText::-webkit-scrollbar-button {display:none}
 
 .testtt{
   position: absolute;

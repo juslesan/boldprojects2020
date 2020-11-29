@@ -59,7 +59,6 @@ export default class Portfolio extends React.Component {
           <ImageRight text={this.props.text} imgs={this.props.imgs}/>
 
         </Grid>
-        {/* <GalleryPopup imgs={this.props.imgs} current={this.state.currentRoll} visible={this.state.galleryToggle} galleryToggler={this.galleryToggler}/> */}
       </div>
     )
   }
