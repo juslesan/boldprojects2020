@@ -12,12 +12,9 @@ export default class Project2020 extends React.Component {
     
     return (
       this.props.text ?
-        <Grid container spacing={6} alignItems="top" justify="center">
+        <Grid container spacing={6} alignItems="center" justify="center">
           <Grid item xs={12} className="pageHeader">
-            <h1>Bold Projects 2021</h1>
-          </Grid>
-          <Grid item xs={12} style={{textAlign: "center"}}>
-            <h2>{this.props.text}</h2>
+            <h1 style={{display: "flex", justifyContent: "center", alignItems: "center", height: "30vw"}}>Project launch in January</h1>
           </Grid>
         </Grid>
       :

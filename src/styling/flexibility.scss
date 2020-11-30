@@ -244,7 +244,10 @@
     overflow: visible
   }
   .frontGif {
-    margin-top: 25%;
+    margin-top: 0%;
+  }
+  .frontFont {
+    margin-top: -40%;
   }
   .linkButton {
     width: 25%;
@@ -288,13 +291,16 @@
   }
 
   .splitscreen {
-    height: 0%;
-    width: 0%;
+    height: 100%;
+    width: 100%;
     position: fixed;
     z-index: -99;
     top: 0;
     overflow-x: hidden;
     padding-top: 0px;
+  }
+  .rightSplit {
+    display: none
   }
 }
 @media (max-width: 380px) {
