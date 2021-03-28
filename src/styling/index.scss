@@ -126,9 +126,9 @@ code {
 .sideBox2 {
   /* background-color: white; */
   text-align: left;
-  font-size: 22px;
-  letter-spacing: 3px;
-  font-weight: 400;
+  font-size: 23px;
+  letter-spacing: 1px;
+  font-weight: 500;
   padding: 0 0vw;
   width: 60%
 }
@@ -215,6 +215,16 @@ code {
 
 .pageHeader > h1 {
   margin-bottom: 25px;
+}
+
+.portfolioHeader {
+  text-align: left;
+  letter-spacing: 2px;
+  font-style: normal;
+  padding-left: 2.3%;
+  margin: 0;
+  font-size: 60px;
+  font-weight: 500;
 }
 
 h1 {
@@ -466,6 +476,10 @@ i:hover {
   padding-left: 10%;
   font-size: 18px;
 }
+.project2020Texts {
+  padding-left: 10%;
+  font-size: 22px;
+}
 .mieliLink {
   position: relative;
   top: 5vh;
@@ -509,6 +523,19 @@ i:hover {
 .rightSplit {
   right: 0;
   background-color: white;
+}
+
+.project2021Texts {
+  padding-left: 5%;
+  font-size: 22px;
+}
+
+.project2021text {
+  font-size: 22px;
+  letter-spacing: 2px;
+  text-align: left;
+  font-weight: 500;
+  padding: 0 0vw;
 }
 
 .frontcont {

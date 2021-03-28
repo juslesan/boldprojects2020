@@ -9,7 +9,7 @@ export default function ImageRight(props) {
       <Grid key="txt" item xs={12} sm={6} className="sideBox2">
         <div className="scrollableText">
           {props.text.map((t)=>
-            <p>{t}</p>
+            <p style={{textAlign: "left"}}>{t}</p>
           )}
         </div>
       </Grid>
