@@ -101,12 +101,12 @@
 
   h1 {
     font-size: 40px;
-    letter-spacing: 5px;
+    letter-spacing: 0;
 
   }
   .italics {
     font-size: 18px;
-    letter-spacing: 3px;
+    letter-spacing: 0;
   }
   .threeBars {
     display: inline-block;
@@ -188,12 +188,12 @@
   }
   h1 {
     font-size: 34px;
-    letter-spacing: 4px;
+    letter-spacing: 0;
 
   }
   .italics {
     font-size: 15px;
-    letter-spacing: 1px;
+    letter-spacing: 0;
   }
   .textSideBoxRight {
     padding: 0 15vw;
@@ -242,7 +242,7 @@
   .sideBox2 {
     /* background-color: white; */
     font-size: 14px;
-    letter-spacing: 4px;
+    letter-spacing: 0;
     font-weight: 400;
     padding: 0 0vw;
   }
@@ -364,12 +364,11 @@
   }
   h1 {
     font-size: 30px;
-    letter-spacing: 4px;
-
+    letter-spacing: 0;
   }
   .italics {
     font-size: 13px;
-    letter-spacing: 1px;
+    letter-spacing: 0px;
   }
   .sideBox2{
     font-size: 13px;
@@ -390,12 +389,12 @@
 @media (max-width: 325px) {
   h1 {
     font-size: 28px;
-    letter-spacing: 3px;
+    letter-spacing: 0;
 
   }
   .italics {
     font-size: 12px;
-    letter-spacing: 1px;
+    letter-spacing: 0;
     .sideBox2{
       font-size: 12px;
     }
