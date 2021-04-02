@@ -35,6 +35,7 @@ import bold100Content from './content/bold100'
 import voyageContent from './content/voyage'
 import bold100TestContent from './content/bold100Test'
 import clubContent from './content/club'
+import offroadContent from './content/offroad'
 import project2020Content from './content/project2020'
 import project2021Content from './content/project2021'
 import {
@@ -83,7 +84,7 @@ export default class App extends React.Component {
                         <Portfolio language={this.state.lang} rollAmount={5} head="Bold 100 TEST" imgs={[bold100test1,bold100test2,bold100test3,bold100test4,bold100test5]} text={bold100TestContent[this.state.lang]} rollTime={6000}/>}
                     />
                     <Route path="/offroad" render={() =>
-                        <Portfolio language={this.state.lang} rollAmount={5} head="Bold Offroad" imgs={[offroad1, offroad2, offroad3, offroad4, offroad5, offroad6, offroad7, offroad8, offroad9]} text={bold100TestContent[this.state.lang]} rollTime={6000}/>}
+                        <Portfolio language={this.state.lang} rollAmount={5} head="Bold Offroad" imgs={[offroad1, offroad2, offroad3, offroad4, offroad5, offroad6, offroad7, offroad8, offroad9]} text={offroadContent[this.state.lang]} rollTime={6000}/>}
                     />
                     <Route path="/news" render={() =>
                         <News language={this.state.lang}/>}
