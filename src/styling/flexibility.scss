@@ -100,6 +100,9 @@
   .donateLinkImg {
     width: 20%;
   }
+  .frontFont {
+    font-size: 35px;
+  }
 }
 
 @media (max-width: 769px) {
@@ -180,6 +183,9 @@
   }
   .donateLinkImg {
     width: 25%;
+  }
+  .frontFont {
+    font-size: 28px;
   }
 }
 
@@ -290,7 +296,8 @@
     margin-top: 0%;
   }
   .frontFont {
-    margin-top: -40%;
+    text-align: center;
+    font-size: 24px;
   }
   .linkButton {
     width: 25%;
@@ -376,6 +383,9 @@
   }
   .donateLinkImg {
     width: 50%;
+  }
+  .frontFont {
+    font-size: 20px;
   }
 }
 @media (max-width: 325px) {

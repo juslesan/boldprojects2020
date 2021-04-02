@@ -25,7 +25,7 @@ export default class Frontpage extends React.Component {
               </a>
           </Grid>
           <Grid item xs={12} sm={6}>
-            <h1 className="frontFont">Kaikilla on oikeus hyvään elämään.</h1>
+            <h1 className="frontFont">Bold Projects is a nonprofit association founded in Helsinki in 2018. With our annual daring endeavors we want to help charities raise awareness and funds. Our projects are eco-friendly, creative and bold.</h1>
           </Grid>
         </Grid>
       </div>
