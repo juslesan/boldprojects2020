@@ -13,9 +13,7 @@
     padding: 0;
     padding-left: 0vw;
   }
-  .scrollableText {
-    height: 50vh;
-  }
+
   .headOnTopBoxWide {
     height: auto;
     width: 90vw;
@@ -50,9 +48,6 @@
     padding: 0;
     padding-left: 6vw;
   }
-  .scrollableText {
-    height: 55vh;
-  }
   .pageHeader > h1 {
     font-size: 120px;
   }
@@ -84,9 +79,6 @@
     margin-right: 3vw;
     padding-left: 15vw;
     padding-right: 5vw;
-  }
-  .scrollableText {
-    height: 60vh;
   }
   .contactFrame {
     font-size: 14px;
@@ -130,9 +122,6 @@
   .sideBoxImg2{
     padding-left: 15px;
     width: 100%
-  }
-  .scrollableText {
-    height: 50vh;
   }
   .contact {
     font-size: 14px;
@@ -280,10 +269,8 @@
     padding:15px;
   }
   .scrollableText {
-    height: 30vh;
-    width: 100%;
-    margin: 0;
-    padding-left: 5%;
+    letter-spacing: 0;
+    padding-left: 3%;
   }
   .scrollableImgs {
     // height: 80vh;
@@ -401,8 +388,4 @@
       font-size: 12px;
     }
   }
-  .scrollableText {
-    height: 25vh;
-  }
-
 }
