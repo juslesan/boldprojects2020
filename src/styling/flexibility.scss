@@ -207,9 +207,15 @@
     font-size: 16px;
   }
   .contactInfoBottom {
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
     margin-left: 5%;
   }
   .contactInfoTop {
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
     margin-left: 5%;
   }
   .textSideBoxLeft {
@@ -350,6 +356,12 @@
   }
 }
 @media (max-width: 380px) {
+  .contactInfoBottom {
+    font-size: 14px;
+  }
+  .contactInfoTop {
+    font-size: 14px;
+  }
   h1 {
     font-size: 30px;
     letter-spacing: 4px;
