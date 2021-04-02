@@ -210,7 +210,6 @@ code {
 .pageHeader {
   margin: 0;
   padding: 0;
-
 }
 
 .pageHeader > h1 {
@@ -492,9 +491,41 @@ i:hover {
   margin-bottom: 10vw;
 }
 
+.donateLink {
+  position: relative;
+  top: 1vh;
+}
+
+.donateLinkImg {
+  position: relative;
+  width: 15%;
+  display:block;
+  margin:auto;
+  margin-bottom: 10vw;
+}
+
 .trailImg {
   padding-left: 20%;
   width: 80%;
+}
+
+.mapImgWrapper {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  overflow: hidden;
+}
+
+.mapImg {
+  position: relative;
+  overflow: hidden;
+  top: -10%;
+  left: 60%;
+  width: 60%;
+  opacity: 60%;
 }
 
 .splitscreen {
@@ -526,12 +557,12 @@ i:hover {
 }
 
 .project2021Texts {
-  padding-left: 5%;
+  padding-left: 3%;
   font-size: 22px;
 }
 
 .project2021text {
-  font-size: 22px;
+  font-size: 34px;
   letter-spacing: 2px;
   text-align: left;
   font-weight: 500;

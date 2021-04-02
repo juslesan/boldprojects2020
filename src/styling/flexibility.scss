@@ -27,6 +27,13 @@
 
     }
   }
+  .pageHeader > h1 {
+    font-size: 144px;
+  }
+  .project2021text {
+    font-size: 55px;
+  }
+
 }
 @media (min-width: 1800px) {
   h1 {
@@ -45,6 +52,12 @@
   }
   .scrollableText {
     height: 55vh;
+  }
+  .pageHeader > h1 {
+    font-size: 120px;
+  }
+  .project2021text {
+    font-size: 45px;
   }
 }
 @media (max-width: 1025px) {
@@ -77,6 +90,15 @@
   }
   .contactFrame {
     font-size: 14px;
+  }
+  .pageHeader > h1 {
+    font-size: 80px;
+  }
+  .project2021text {
+    font-size: 24px;
+  }
+  .donateLinkImg {
+    width: 20%;
   }
 }
 
@@ -137,6 +159,27 @@
     position: relative;
     margin-left: 2vw;
     float: left;
+  }
+  .pageHeader > h1 {
+    font-size: 75px;
+  }
+
+  .mapImgWrapper {
+    overflow: visible;
+  }
+  .mapImg {
+    position: relative;
+    overflow: hidden;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    opacity: 60%;
+  }
+  .project2021text {
+    font-size: 22px;
+  }
+  .donateLinkImg {
+    width: 25%;
   }
 }
 
@@ -302,6 +345,15 @@
   .rightSplit {
     display: none
   }
+  .pageHeader > h1 {
+    font-size: 40px;
+  }
+  .project2021text {
+    font-size: 18px;
+  }
+  .donateLinkImg {
+    width: 40%;
+  }
 }
 @media (max-width: 380px) {
   h1 {
@@ -315,6 +367,15 @@
   }
   .sideBox2{
     font-size: 13px;
+  }
+  .pageHeader > h1 {
+    font-size: 32px;
+  }
+  .project2021text {
+    font-size: 14px;
+  }
+  .donateLinkImg {
+    width: 50%;
   }
 }
 @media (max-width: 325px) {
