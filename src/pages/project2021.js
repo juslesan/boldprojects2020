@@ -1,6 +1,5 @@
 import React from 'react';
 import Grid from '@material-ui/core/Grid';
-import Background from '../img/project2021/background.png'
 import Donate from '../img/project2021/Donate_button.png'
 export default class Project2020 extends React.Component {
   constructor(props) {
