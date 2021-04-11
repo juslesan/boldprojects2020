@@ -8,6 +8,7 @@ import Contact from './pages/contact'
 import Info from './pages/info'
 import Gallery from './pages/gallery'
 import Club from './pages/club'
+import Construction from './pages/construction'
 import Project2020 from './pages/project2020'
 import Project2021 from './pages/project2021'
 import bold100test1 from './img/bold100test/DSC06410.jpg'
@@ -106,6 +107,9 @@ export default class App extends React.Component {
                     />
                     <Route path="/project2021" render={() =>
                         <Project2021 language={this.state.lang} text={project2021Content[this.state.lang]}/>}
+                    />
+                     <Route path="/construction" render={() =>
+                        <Construction/>}
                     />
                     {/* <Route path="/newspaper/1" render={() =>
                         <Issue1/>}

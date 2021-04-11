@@ -24,7 +24,7 @@ export default class Project2020 extends React.Component {
             </div>
           </Grid>
           <Grid item xs={12} sm={12}>
-            <a href="" className="donateLink">
+            <a href="/construction" className="donateLink">
               <img src={Donate} className="donateLinkImg"/>
             </a>
           </Grid>
