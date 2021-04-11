@@ -14,11 +14,12 @@ code {
 
 .content {
   /* background-color: #cfe8fc; */
-  height: 90vh;
+  height: 80vh;
   font-family: Montserrat;
   font-weight: medium;
   margin: 5vh 0;
   padding: 1vw;
+  letter-spacing: 0;
 }
 .centered {
   position: absolute;
@@ -117,7 +118,6 @@ code {
 .sideBox {
   /* background-color: white; */
   font-size: 26px;
-  letter-spacing: 4px;
   text-align: center;
   font-weight: 400;
   padding: 0 0vw;
@@ -126,9 +126,8 @@ code {
 .sideBox2 {
   /* background-color: white; */
   text-align: left;
-  font-size: 22px;
-  letter-spacing: 3px;
-  font-weight: 400;
+  font-size: 23px;
+  font-weight: 500;
   padding: 0 0vw;
   width: 60%
 }
@@ -138,8 +137,8 @@ code {
 }
 .sideBoxImg2 {
   padding-top: 5px;
-  padding-left: 45px;
-  width: 90%
+  padding-left: 15%;
+  width: 85%
 }
 .sideBoxImg2:hover {
   cursor: pointer; 
@@ -210,16 +209,24 @@ code {
 .pageHeader {
   margin: 0;
   padding: 0;
-
 }
 
 .pageHeader > h1 {
+  letter-spacing: 0;
   margin-bottom: 25px;
+}
+
+.portfolioHeader {
+  text-align: left;
+  font-style: normal;
+  padding-left: 2.3%;
+  margin: 0;
+  font-size: 60px;
+  font-weight: 500;
 }
 
 h1 {
   text-align: center;
-  letter-spacing: 6px;
   font-style: normal;
   padding: 0;
   margin: 0;
@@ -311,11 +318,22 @@ i:hover {
   -webkit-transform: rotate(45deg);
 }
 .scrollableText {
-  overflow: auto;
-  height: 70vh;
+  padding-left: 5%;
+  padding-right: 10%;
+  font-weight: 550;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+.scrollableImgs {
+  padding-left: 0%;
+  padding-right: 0%;
+  margin-top: 1em;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
 }
 .infoText {
   font-size: 28px;
+  padding: 5vw;
   text-align: center;
 }
 .videoCont{
@@ -349,8 +367,7 @@ i:hover {
 }
 .contact {
   font-weight: 500;
-  letter-spacing: 2px;
-  font-size: 16px;
+  font-size: 22px;
 }
 .contactImg {
   width:100%;
@@ -368,25 +385,15 @@ i:hover {
 .contactPhone {
   margin-top: 0;
 }
-.scrollableText::-webkit-scrollbar {
-  background-color:#fafafa;
-  width:16px
-}
-
-/* background of the scrollbar except button or resizer */
-.scrollableText::-webkit-scrollbar-track {
-  background-color:#fafafa;
-}
-
-/* scrollbar itself */
-.scrollableText::-webkit-scrollbar-thumb {
-  background-color:#babac0;
-  border-radius:16px;
-  border:3px solid #fafafa;
-}
 
 /* set button(top and bottom of the scrollbar) */
 .scrollableText::-webkit-scrollbar-button {display:none}
+
+.scrollableText::-webkit-scrollbar {display:none}
+
+.scrollableImgs::-webkit-scrollbar-button {display:none}
+
+.scrollableImgs::-webkit-scrollbar {display:none}
 
 .testtt{
   position: absolute;
@@ -407,13 +414,24 @@ i:hover {
 }
 
 .frontGif {
-  margin-top: 5%;
-  width: 70%;
-  display:block;
-  margin:auto;
+  top: -0%;
+  width: 75%;
+  left: 12.5%;
+  position: relative;
+}
+
+.frontFont {
+  text-align: left;
+  font-size: 45px;
+  padding-right: 20%;
+}
+.clubTexts {
+  font-size: 18px;
+  padding-left: 10%
 }
 .map {
-  width: 100%;
+  padding-left: 20%;
+  width: 80%;
 }
 .linkButtonLink {
   margin-top: 10vh;
@@ -448,18 +466,106 @@ i:hover {
   font-weight: 500;
   margin-bottom: 0;
 }
+.project2020Texts {
+  padding-left: 10%;
+  font-size: 18px;
+}
+.project2020Texts {
+  padding-left: 10%;
+  font-size: 22px;
+}
 .mieliLink {
   position: relative;
-  top: 5vh;
+  top: -12.5vw;
 }
 .mieliLinkImg {
   position: relative;
-  width: 60%;
+  width: 25%;
   display:block;
   margin:auto;
-  margin-bottom: 10vw;
+  margin-bottom: 0vw;
+}
+
+.donateLink {
+  position: relative;
+  top: 0vh;
+}
+
+.donateLinkImg {
+  position: relative;
+  width: 10%;
+  display:block;
+  margin:auto;
 }
 
 .trailImg {
+  padding-left: 20%;
+  width: 80%;
+}
+
+.mapImgWrapper {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  height: 100%;
   width: 100%;
+  z-index: -1;
+  overflow: hidden;
+}
+
+.mapImg {
+  position: relative;
+  overflow: hidden;
+  top: -10%;
+  left: 60%;
+  width: 60%;
+  opacity: 60%;
+}
+
+.splitscreen {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: -99;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+/* Control the left side */
+.leftSplit {
+  left: 0;
+  background-color: #f4972d;
+}
+
+/* Control the left side */
+.leftSplit2 {
+  left: 0;
+  background-color: #f4972d2e;
+}
+
+/* Control the right side */
+.rightSplit {
+  right: 0;
+  background-color: white;
+}
+
+.project2021Texts {
+  background-image: url("../img/project2021/background.gif");
+  background-size: 100% 100%;
+  padding-top: 2%;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 5%;
+}
+
+.project2021text {
+  font-size: 30px;
+  text-align: center;
+  font-weight: 500;
+  padding: 0 0vw;
+}
+
+.frontcont {
+  height: 90vh;
 }

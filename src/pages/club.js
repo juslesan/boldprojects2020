@@ -18,6 +18,7 @@ export default class Club extends React.Component {
             <h1>Bold Running Club</h1>
           </Grid>
           <Grid item xs={12} sm={6}>
+            <div className="clubTexts">
               <p className="">
                 {this.props.text[0]}
               </p>
@@ -42,6 +43,7 @@ export default class Club extends React.Component {
               <p>
                 {this.props.text[7]}
               </p>
+            </div>
           </Grid>
     
           <Grid item xs={12} sm={6}>

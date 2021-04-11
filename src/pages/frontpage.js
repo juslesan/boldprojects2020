@@ -1,57 +1,27 @@
 import React from 'react';
 import Grid from '@material-ui/core/Grid';
-// import {linkBalls} from '../components/common';
-// import roller from './frontpageRoll/roller'
-// import content from '../content/about'
-import boldgif from '../img/image00001.gif'
-import linkButton from '../img/club/club_button.png'
-import project2020 from '../img/project2020/project2020.png'
-
+import boldgif from '../img/frontpage_animation.gif'
+import projectLink from '../img/project2021/PP_button.png'
 export default class Frontpage extends React.Component {
   constructor(props) {
     super(props)
-    this.state = {
-      currentRoll: 0,
-      rollAmount: 0
-    }
-    this.rollTime = 6000
-    this.rollInterval = null
   }
-
-  componentDidMount() {
-    this.setState({rollAmount: this.props.rollAmount}) 
-  }
-
-  changeCurrentRoll = (id, e) => {
-    this.setState({currentRoll: id})
-  }
-
   render() {
-    clearInterval(this.rollInterval)
-    this.rollInterval = setInterval(() => {
-      this.setState(this.state.currentRoll < this.state.rollAmount - 1 ? 
-                      {currentRoll: this.state.currentRoll + 1}
-                    :
-                      {currentRoll: 0}
-                    )
-    }, this.rollTime)
     return (
+      <div className="frontPage">
 
-      <Grid container spacing={0} alignItems="center" justify="center">
-        <Grid item xs={12} className="pageHeader">
-          <img className="frontGif" src={boldgif}></img>
+        <Grid container spacing={10} alignItems="center" justify="center" className="frontcont">
+          <Grid item xs={12} sm={6}>
+              <img className="frontGif" src={boldgif}></img>
+              <a href="/project2021" className="mieliLink">
+                <img src={projectLink} className="mieliLinkImg"/>
+              </a>
+          </Grid>
+          <Grid item xs={12} sm={6}>
+            <h1 className="frontFont">Bold Projects is a nonprofit association founded in Helsinki in 2018. With our annual daring endeavors we want to help charities raise awareness and funds. Our projects are eco-friendly, creative and bold.</h1>
+          </Grid>
         </Grid>
-        <Grid item xs={12} sm={6}>
-          <a className="linkButtonLink" href="/project2020">
-            <img className="linkButtonLeft" src={project2020}></img>
-          </a>
-        </Grid>
-        <Grid item xs={12} sm={6}>
-          <a className="linkButtonLink" href="/club">
-            <img className="linkButtonRight" src={linkButton}></img>
-          </a>
-        </Grid>
-      </Grid>
+      </div>
     )
   }
 }
