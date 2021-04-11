@@ -81,8 +81,8 @@ export default class App extends React.Component {
                     <Route path="/bold100" render={() =>
                         <Portfolio language={this.state.lang} rollAmount={1} head="Bold 100" imgs={[bold100]} text={bold100Content[this.state.lang]} rollTime={6000}/>}
                     />
-                    <Route path="/bold100test" render={() =>
-                        <Portfolio language={this.state.lang} rollAmount={5} head="Bold 100 TEST" imgs={[bold100test1,bold100test2,bold100test3,bold100test4,bold100test5]} text={bold100TestContent[this.state.lang]} rollTime={6000}/>}
+                    <Route path="/bold100pioneers" render={() =>
+                        <Portfolio language={this.state.lang} rollAmount={5} head="Bold 100 Pioneers" imgs={[bold100test1,bold100test2,bold100test3,bold100test4,bold100test5]} text={bold100TestContent[this.state.lang]} rollTime={6000}/>}
                     />
                     <Route path="/offroad" render={() =>
                         <Portfolio language={this.state.lang} rollAmount={5} head="Bold Offroad" imgs={[offroad1, offroad2, offroad3, offroad4, offroad5, offroad6, offroad7, offroad8, offroad9]} text={offroadContent[this.state.lang]} rollTime={6000}/>}
