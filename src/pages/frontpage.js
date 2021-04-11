@@ -1,6 +1,6 @@
 import React from 'react';
 import Grid from '@material-ui/core/Grid';
-import boldgif from '../img/frontpage_animation.gif'
+import boldgif from '../img/bold_gradient_mesh_text_2s_lowres.gif'
 import projectLink from '../img/project2021/PP_button.png'
 export default class Frontpage extends React.Component {
   constructor(props) {
