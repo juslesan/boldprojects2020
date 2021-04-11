@@ -58,3 +58,7 @@
 .scrollableText ::-webkit-scrollbar-thumb:hover {
   background: #d6e8e9; 
 }
+
+body {
+  background-color: #ffffff;
+}

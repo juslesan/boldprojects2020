@@ -1,6 +1,6 @@
 import React from 'react';
 import Grid from '@material-ui/core/Grid';
-import boldgif from '../img/image00002.gif'
+import boldgif from '../img/frontpage_animation.gif'
 import projectLink from '../img/project2021/PP_button.png'
 export default class Frontpage extends React.Component {
   constructor(props) {
@@ -9,13 +9,6 @@ export default class Frontpage extends React.Component {
   render() {
     return (
       <div className="frontPage">
-        <div>
-          <div className="splitscreen leftSplit">
-          </div>
-
-          <div className="splitscreen rightSplit">
-          </div>
-        </div>
 
         <Grid container spacing={10} alignItems="center" justify="center" className="frontcont">
           <Grid item xs={12} sm={6}>
