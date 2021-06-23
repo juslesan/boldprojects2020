@@ -2,6 +2,8 @@ import React from 'react';
 import Grid from '@material-ui/core/Grid';
 import boldgif from '../img/bold_gradient_mesh_text_2s_lowres.gif'
 import projectLink from '../img/project2021/PP_button.png'
+import Donate from '../img/project2021/Donate_button.png'
+
 export default class Frontpage extends React.Component {
   constructor(props) {
     super(props)
@@ -15,6 +17,9 @@ export default class Frontpage extends React.Component {
               <img className="frontGif" src={boldgif}></img>
               <a href="/project2021" className="mieliLink">
                 <img src={projectLink} className="mieliLinkImg"/>
+              </a>
+              <a href="/project2021" className="mieliLink">
+                <img src={Donate} className="mieliLinkImg"/>
               </a>
           </Grid>
           <Grid item xs={12} sm={6}>
