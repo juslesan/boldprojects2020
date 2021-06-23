@@ -33,7 +33,7 @@ export default class Project2020 extends React.Component {
             </div>
           </Grid>
           <Grid item xs={12} sm={12}>
-            <a href="/construction" className="donateLink">
+            <a href="https://www.lahjoituslomake.fi/tukikummit/bold-projects/paasta-paahan-2021/" className="donateLink">
               <img src={Donate} className="donateLinkImg"/>
             </a>
           </Grid>
