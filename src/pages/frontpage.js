@@ -18,7 +18,7 @@ export default class Frontpage extends React.Component {
               <a href="/project2021" className="mieliLink">
                 <img src={projectLink} className="mieliLinkImg"/>
               </a>
-              <a href="/project2021" className="mieliLink">
+              <a href="https://www.lahjoituslomake.fi/tukikummit/bold-projects/paasta-paahan-2021/" target="_blank" className="mieliLink">
                 <img src={Donate} className="mieliLinkImg"/>
               </a>
           </Grid>
