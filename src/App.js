@@ -31,6 +31,22 @@ import offroad6 from './img/offroad/6.jpg'
 import offroad7 from './img/offroad/7.jpg'
 import offroad8 from './img/offroad/8.jpg'
 import offroad9 from './img/offroad/9.jpg'
+import pp1 from './img/paastapaahan/1.jpg'
+import pp2 from './img/paastapaahan/2.jpg'
+import pp3 from './img/paastapaahan/3.jpg'
+import pp4 from './img/paastapaahan/4.jpg'
+import pp5 from './img/paastapaahan/5.jpg'
+import pp6 from './img/paastapaahan/6.jpg'
+import pp7 from './img/paastapaahan/7.jpg'
+import pp8 from './img/paastapaahan/8.jpg'
+import pp9 from './img/paastapaahan/9.jpg'
+import pp10 from './img/paastapaahan/10.jpg'
+import pp11 from './img/paastapaahan/11.jpg'
+import pp12 from './img/paastapaahan/12.jpg'
+import pp13 from './img/paastapaahan/13.jpg'
+import pp14 from './img/paastapaahan/14.jpg'
+import pp15 from './img/paastapaahan/15.jpg'
+import pp16 from './img/paastapaahan/16.jpg'
 import bold100 from './img/bold100/rsz_boldmaalikuva.jpg'
 import bold100Content from './content/bold100'
 import voyageContent from './content/voyage'
@@ -39,6 +55,7 @@ import clubContent from './content/club'
 import offroadContent from './content/offroad'
 import project2020Content from './content/project2020'
 import project2021Content from './content/project2021'
+import ppContent from './content/paastapaahan'
 import {
   BrowserRouter as Router,
   Route,
@@ -86,6 +103,9 @@ export default class App extends React.Component {
                     />
                     <Route path="/offroad" render={() =>
                         <Portfolio language={this.state.lang} rollAmount={5} head="Bold Offroad" imgs={[offroad1, offroad2, offroad3, offroad4, offroad5, offroad6, offroad7, offroad8, offroad9]} text={offroadContent[this.state.lang]} rollTime={6000}/>}
+                    />
+                    <Route path="/paastapaahan" render={() =>
+                        <Portfolio language={this.state.lang} rollAmount={5} head="Päästä Päähän" imgs={[pp1, pp2, pp3, pp4, pp5, pp6, pp7, pp8, pp9, pp10, pp11, pp12, pp13, pp14, pp15, pp16]} text={ppContent[this.state.lang]} rollTime={6000}/>}
                     />
                     <Route path="/news" render={() =>
                         <News language={this.state.lang}/>}

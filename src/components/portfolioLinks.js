@@ -24,6 +24,8 @@ export default class PortfolioLInks extends React.Component {
           <a className="menuPortfolioLink" href="/bold100pioneers"> Bold 100 Pioneers</a>
           <a className="menuPortfolioLink" href="/bold100"> Bold 100</a>
           <a className="menuPortfolioLink" href="/offroad"> Bold Offroad</a>
+          <a className="menuPortfolioLink" href="/paastapaahan"> Päästä Päähän</a>
+
         </div>
         :
         <div></div>
