@@ -6,11 +6,11 @@ import Portfolio from './pages/portfolio'
 import News from './pages/news'
 import Contact from './pages/contact'
 import Info from './pages/info'
-import Gallery from './pages/gallery'
 import Club from './pages/club'
 import Construction from './pages/construction'
 import Project2020 from './pages/project2020'
 import Project2021 from './pages/project2021'
+import Project2022 from './pages/project2022'
 import bold100test1 from './img/bold100test/DSC06410.jpg'
 import bold100test2 from './img/bold100test/DSC06425.jpg'
 import bold100test3 from './img/bold100test/DSC06486.jpg'
@@ -51,10 +51,11 @@ import bold100 from './img/bold100/rsz_boldmaalikuva.jpg'
 import bold100Content from './content/bold100'
 import voyageContent from './content/voyage'
 import bold100TestContent from './content/bold100Test'
-import clubContent from './content/club'
 import offroadContent from './content/offroad'
 import project2020Content from './content/project2020'
 import project2021Content from './content/project2021'
+import project2022Content from './content/project2022'
+
 import ppContent from './content/paastapaahan'
 import {
   BrowserRouter as Router,
@@ -113,12 +114,6 @@ export default class App extends React.Component {
                     <Route path="/info" render={() =>
                         <Info language={this.state.lang}/>}
                     />
-                    <Route path="/club" render={() =>
-                        <Club language={this.state.lang} text={clubContent[this.state.lang]}/>}
-                    />
-                    <Route path="/gallery" render={() =>
-                        <Gallery/>}
-                    />
                     <Route path="/contact" render={() =>
                         <Contact language={this.state.lang}/>}
                     />
@@ -128,21 +123,12 @@ export default class App extends React.Component {
                     <Route path="/project2021" render={() =>
                         <Project2021 language={this.state.lang} text={project2021Content[this.state.lang]}/>}
                     />
+                    <Route path="/project2022" render={() =>
+                        <Project2022 language={this.state.lang} text={project2022Content[this.state.lang]}/>}
+                    />
                      <Route path="/construction" render={() =>
                         <Construction/>}
                     />
-                    {/* <Route path="/newspaper/1" render={() =>
-                        <Issue1/>}
-                    />
-                    <Route path="/newspaper/2" render={() =>
-                        <Issue2/>}
-                    />
-                    <Route path="/newspaper/3" render={() =>
-                        <Issue3/>}
-                    />
-                    <Route path="/newspaper/4" render={() =>
-                        <Issue4/>}
-                    /> */}
                 </Router>
             </Container>
             </React.Fragment>

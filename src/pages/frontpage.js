@@ -1,8 +1,8 @@
 import React from 'react';
 import Grid from '@material-ui/core/Grid';
 import boldgif from '../img/bold_gradient_mesh_text_2s_lowres.gif'
-import projectLink from '../img/project2021/PP_button.png'
-import Donate from '../img/project2021/Donate_button.png'
+import ukr from '../img/ukr.png'
+
 
 export default class Frontpage extends React.Component {
   constructor(props) {
@@ -14,16 +14,28 @@ export default class Frontpage extends React.Component {
 
         <Grid container spacing={10} alignItems="center" justify="center" className="frontcont">
           <Grid item xs={12} sm={6}>
+            <div className="frontGifContainer">
               <img className="frontGif" src={boldgif}></img>
-              <a href="/project2021" className="mieliLink">
-                <img src={projectLink} className="mieliLinkImg"/>
-              </a>
-              <a href="https://www.lahjoituslomake.fi/tukikummit/bold-projects/paasta-paahan-2021/" target="_blank" className="mieliLink">
-                <img src={Donate} className="mieliLinkImg"/>
-              </a>
+              <p className="frontGifText">
+                Bold Projects is a nonprofit association founded in Helsinki in 2018. With our annual daring endeavors we want to help charities raise awareness and funds. Our projects are eco-friendly, creative and bold.
+              </p>
+            </div>
           </Grid>
           <Grid item xs={12} sm={6}>
-            <h1 className="frontFont">Bold Projects is a nonprofit association founded in Helsinki in 2018. With our annual daring endeavors we want to help charities raise awareness and funds. Our projects are eco-friendly, creative and bold.</h1>
+            <div className="frontGifContainer">
+              <img className="frontRightImage" src={ukr}/>
+              <div className="frontRightText">
+                <h1 className="frontFont">Bold Projects</h1>
+                <a href="/project2022" className="frontLink">
+                  <p className="frontLink">Project 2022</p>
+                </a>
+                <a href="https://oma.unicef.fi/en_US/team/bold-projects-three-peaks" target="_blank" className="frontLink">
+                  <p className="frontLink">Donate</p>
+                </a>
+              </div>
+              
+            </div>
+        
           </Grid>
         </Grid>
       </div>

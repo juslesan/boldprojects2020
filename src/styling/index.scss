@@ -137,8 +137,8 @@ code {
 }
 .sideBoxImg2 {
   padding-top: 4%;
-  padding-left: 15%;
-  width: 85%
+  padding-left: 10%;
+  width: 90%
 }
 .sideBoxImg2:hover {
   cursor: pointer; 
@@ -221,7 +221,7 @@ code {
   font-style: normal;
   padding-left: 2.3%;
   margin: 0;
-  font-size: 60px;
+  font-size: 44px;
   font-weight: 500;
 }
 
@@ -413,18 +413,65 @@ i:hover {
   margin-top: 0;
 }
 
+.frontGifContainer {
+  position: relative;
+} 
+
 .frontGif {
   top: -0%;
-  width: 75%;
-  left: 12.5%;
+  width: 100%;
+  left: 0;
   position: relative;
+  overflow: hidden;
+  z-index: 0;
+}
+
+.frontRightImage {
+  top: -0%;
+  width: 100%;
+  left: 0;
+  position: relative;
+  z-index: 0;
+  opacity: 25%;
+}
+
+.frontGifText {
+  position: absolute;
+  top: 10%;
+  width: 100%;
+  left: 10%;
+  padding-right: 15%;
+  text-align: center;
+  font-size: 42px;
+}
+
+.frontRightText {
+  position: absolute;
+  top: 40%;
+  width: 100%;
+  text-align: center;
+  z-index: 1;
 }
 
 .frontFont {
-  text-align: left;
+  text-align: center;
   font-size: 45px;
-  padding-right: 20%;
+  // padding-right: 10%;
 }
+
+.frontLink {
+  text-decoration: none;
+  color: black;
+}
+
+.frontLink:hover {
+  opacity: 50%;
+}
+
+.frontLink > p {
+  font-size: 22px;
+}
+
 .clubTexts {
   font-size: 18px;
   padding-left: 10%

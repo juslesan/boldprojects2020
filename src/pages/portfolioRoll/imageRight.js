@@ -6,16 +6,16 @@ export default function ImageRight(props) {
   if (props.text && props.imgs) {
     const gridList = []
     gridList.push(
-      <Grid key="txt" item xs={12} sm={6} className="sideBox2">
+      <Grid key="txt" item xs={12} sm={7} className="sideBox2">
         <div className="scrollableText">
           {props.text.map((t)=>
-            <p style={{textAlign: "left"}}>{t}</p>
+            <p style={{textAlign: "center"}}>{t}</p>
           )}
         </div>
       </Grid>
     )
     gridList.push(
-      <Grid key="img" item xs={12} sm={6} className="sideBox2">
+      <Grid key="img" item xs={12} sm={5} className="sideBox2">
         <div className="scrollableImgs">
         {props.imgs.map((img) => 
           <img alt="right" src={img} className="sideBoxImg2" onClick={props.popup}>
