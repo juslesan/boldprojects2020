@@ -22,7 +22,6 @@
     .headOnTopImage {
       height: auto;
       width: 100%;
-
     }
   }
   .pageHeader > h1 {
@@ -31,7 +30,12 @@
   .project2021text {
     font-size: 53px;
   }
-
+  .project2022header {
+    font-size: 90px;
+  }
+  .project2022paragraph {
+    font-size: 53px;
+  }
 }
 @media (min-width: 1800px) {
   h1 {
@@ -59,6 +63,24 @@
 
   .frontFont {
     font-size: 38px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .project2022header {
+    font-size: 32px;
+  }
+  .project2022paragraph {
+    font-size: 24px;
+  }
+  .overImage {
+    top: 15%;
+  }
+  .overImageHead {
+    top: 15%;
+  }
+  .heightLimitDiv {
+    height: 75vh;
   }
 }
 
@@ -101,6 +123,21 @@
   }
   .frontFont {
     font-size: 28px;
+  }
+  .project2022header {
+    font-size: 28px;
+  }
+  .project2022paragraph {
+    font-size: 22px;
+  }
+  .overImage {
+    top: 15%;
+  }
+  .overImageHead {
+    top: 15%;
+  }
+  .heightLimitDiv {
+    height: 75vh;
   }
 }
 
@@ -185,6 +222,24 @@
   }
   .sideBoxImg2 {
     padding-right: 3vw;
+  }
+  .project2022header {
+    font-size: 22px;
+  }
+  .project2022paragraph {
+    font-size: 20px;
+  }
+  .overImage {
+    top: 10%;
+  }
+  .overImageHead {
+    top: 10%;
+  }
+  .heightLimitDiv {
+    height: 60vh;
+  }
+  .heightDiv {
+    height: 60vw;
   }
 }
 
@@ -367,6 +422,43 @@
   }
   .donateLinkImg {
     width: 40%;
+  }
+  .sideBoxImg2 {
+    padding-right: 3vw;
+  }
+  .verticalBackgroundImage {
+    padding-top: 10vw;
+  }
+  .project2022header {
+    font-size: 13px;
+  }
+  .project2022paragraph {
+    font-size: 12px;
+  }
+  .overImage {
+    top: 10%;
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+  .heightLimitDiv {
+    height: 28vh;
+  }
+  .overImageHead {
+    top: 1%;
+    color: black;
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+  .projectLogo {
+    position: relative;
+    width: 80%;
+    left: 10%;
+  }
+  .heightDiv {
+    height: 72vw;
+  }
+  .project2022Link {
+    width: 30%;
   }
 }
 @media (max-width: 380px) {
