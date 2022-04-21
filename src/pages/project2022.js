@@ -31,8 +31,8 @@ export default class Info extends React.Component {
           </div>
           </Grid>
           <Grid>
-          <div className='heightDiv'>
-            <h1 className="project2022header" style={{paddingTop: "5%"}}>UNICEF</h1>
+          <div className="heightDiv">
+            <h1 className="project2022header">UNICEF</h1>
             <div className="overImage">
                 <p className="project2022paragraph">{this.props.text[1]}</p>
                 <p className="project2022paragraph">{this.props.text[2]}</p>
