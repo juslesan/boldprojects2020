@@ -34,12 +34,10 @@ export default class Info extends React.Component {
           <div className='heightDiv'>
             <h1 className="project2022header" style={{paddingTop: "5%"}}>UNICEF</h1>
             <div className="overImage">
-              <p>
                 <p className="project2022paragraph">{this.props.text[1]}</p>
                 <p className="project2022paragraph">{this.props.text[2]}</p>
-              </p>
             </div>
-            <img className="verticalBackgroundImage" style={{opacity: "80%"}} src={unicef}/>
+            <img className="verticalBackgroundImage" style={{opacity: "60%"}} src={unicef}/>
            
             
           </div>

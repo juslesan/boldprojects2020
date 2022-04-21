@@ -438,6 +438,7 @@ i:hover {
 .overImage {
   position: absolute;
   top: 20%;
+  z-index: 50;
   padding-left: 7%;
   padding-right: 7%;
 }
