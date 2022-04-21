@@ -1,3 +1,18 @@
+@import url("//hello.myfonts.net/count/481bb9");
+  
+@font-face {
+  font-family: "SregsSerifDisplay-MedIta";
+  src: url('fonts/webFonts/SregsSerifDisplayMedIta/font.woff2') format('woff2'), url('fonts/webFonts/SregsSerifDisplayMedIta/font.woff') format('woff');
+}
+@font-face {
+  font-family: "Recoleta-Bold";
+  src: url('fonts/webFonts/RecoletaBold/font.woff2') format('woff2'), url('fonts/webFonts/RecoletaBold/font.woff') format('woff');
+}
+@font-face {
+  font-family: "Recoleta-Regular";
+  src: url('fonts/webFonts/RecoletaRegular/font.woff2') format('woff2'), url('fonts/webFonts/RecoletaRegular/font.woff') format('woff');
+}
+
 .App {
   text-align: center;
 }

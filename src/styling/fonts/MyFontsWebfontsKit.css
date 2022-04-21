@@ -1,0 +1,44 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 4725689, 2022-04-21T14:22:54-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: Recoleta-Bold by Latinotype
+ * URL: https://www.myfonts.com/fonts/latinotype/recoleta/bold/
+ * Copyright: Copyright � 2018 by Jorge Cisterna. All rights reserved.
+ * 
+ * Webfont: Recoleta-Regular by Latinotype
+ * URL: https://www.myfonts.com/fonts/latinotype/recoleta/regular/
+ * Copyright: Copyright � 2018 by Jorge Cisterna. All rights reserved.
+ * 
+ * Webfont: SregsSerifDisplay-MedIta by Propertype
+ * URL: https://www.myfonts.com/fonts/propertype/sregs-serif-display/medium-italic/
+ * Copyright: Propertype Foundry
+ * 
+ * 
+ * 
+ * © 2022 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/481bb9");
+  
+@font-face {
+  font-family: "SregsSerifDisplay-MedIta";
+  src: url('webFonts/SregsSerifDisplayMedIta/font.woff2') format('woff2'), url('webFonts/SregsSerifDisplayMedIta/font.woff') format('woff');
+}
+@font-face {
+  font-family: "Recoleta-Bold";
+  src: url('webFonts/RecoletaBold/font.woff2') format('woff2'), url('webFonts/RecoletaBold/font.woff') format('woff');
+}
+@font-face {
+  font-family: "Recoleta-Regular";
+  src: url('webFonts/RecoletaRegular/font.woff2') format('woff2'), url('webFonts/RecoletaRegular/font.woff') format('woff');
+}
+
