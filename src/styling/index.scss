@@ -426,6 +426,49 @@ i:hover {
   z-index: 0;
 }
 
+.divBackgroundImage { 
+  width: 100%;
+  left: 0%;
+  top: 0;
+  position: relative;
+  z-index: 0;
+}
+
+.overImage {
+  position: absolute;
+  top: 20%;
+  padding-left: 7%;
+  padding-right: 7%;
+}
+
+.heightDiv {
+  height: 60vw;
+  overflow-y: hidden;
+  position: relative;
+}
+
+.project2022paragraph {
+  font-size: 28px;
+  padding-left: 7%;
+  padding-right: 7%;
+  padding-top: 5%;
+  text-align: center;
+}
+
+.verticalBackgroundImage {
+  width: 90%;
+  left: 5%;
+  top: 10%;
+  position: relative;
+  z-index: 0;
+}
+
+.heightLimitDiv {
+  height: 100vh;
+  overflow-y: hidden;
+  position: relative;
+}
+
 .frontRightImage {
   top: -0%;
   width: 100%;

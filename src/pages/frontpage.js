@@ -1,6 +1,6 @@
 import React from 'react';
 import Grid from '@material-ui/core/Grid';
-import boldgif from '../img/bold_gradient_mesh_text_2s_lowres.gif'
+import flames from '../img/long-flames.gif'
 import ukr from '../img/ukr.png'
 
 
@@ -12,10 +12,10 @@ export default class Frontpage extends React.Component {
     return (
       <div className="frontPage">
 
-        <Grid container spacing={10} alignItems="center" justify="center" className="frontcont">
+        <Grid container spacing={2} alignItems="center" justify="center" className="frontcont">
           <Grid item xs={12} sm={6}>
             <div className="frontGifContainer">
-              <img className="frontGif" src={boldgif}></img>
+              <img className="frontGif" src={flames}></img>
               <p className="frontGifText">
                 Bold Projects is a nonprofit association founded in Helsinki in 2018. With our annual daring endeavors we want to help charities raise awareness and funds. Our projects are eco-friendly, creative and bold.
               </p>
@@ -33,7 +33,6 @@ export default class Frontpage extends React.Component {
                   <p className="frontLink">Donate</p>
                 </a>
               </div>
-              
             </div>
         
           </Grid>
