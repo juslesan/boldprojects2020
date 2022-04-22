@@ -1,6 +1,6 @@
 import React from 'react';
-import CssBaseline from '@material-ui/core/CssBaseline';
-import Container from '@material-ui/core/Container';
+import CssBaseline from '@mui/material/CssBaseline';
+import Container from '@mui/material/Container';
 import Frontpage from './pages/frontpage.js'
 import Portfolio from './pages/portfolio'
 import News from './pages/news'
@@ -8,7 +8,6 @@ import Contact from './pages/contact'
 import Info from './pages/info'
 import Club from './pages/club'
 import Construction from './pages/construction'
-import Project2020 from './pages/project2020'
 import Project2021 from './pages/project2021'
 import Project2022 from './pages/project2022'
 import bold100test1 from './img/bold100test/DSC06410.jpg'
@@ -117,9 +116,6 @@ export default class App extends React.Component {
                     />
                     <Route path="/contact" render={() =>
                         <Contact language={this.state.lang}/>}
-                    />
-                    <Route path="/project2020" render={() =>
-                        <Project2020 language={this.state.lang} text={project2020Content[this.state.lang]}/>}
                     />
                     <Route path="/project2021" render={() =>
                         <Project2021 language={this.state.lang} text={project2021Content[this.state.lang]}/>}

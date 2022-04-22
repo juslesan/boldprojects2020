@@ -1,5 +1,5 @@
 import React from 'react';
-import Grid from '@material-ui/core/Grid';
+import Grid from '@mui/material/Grid';
 import Valtteri from '../img/contact/Valtteri.jpg'
 import Bernhard from '../img/contact/Bernhard.jpg'
 import Eddie from '../img/contact/Eddie.jpg'

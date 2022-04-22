@@ -1,5 +1,5 @@
 import React from 'react';
-import Grid from '@material-ui/core/Grid';
+import Grid from '@mui/material/Grid';
 import flames from '../img/long-flames.gif'
 import ukr from '../img/ukr.png'
 
@@ -12,8 +12,8 @@ export default class Frontpage extends React.Component {
     return (
       <div className="frontPage">
 
-        <Grid container spacing={2} alignItems="center" justify="center" className="frontcont">
-          <Grid item xs={12} sm={6}>
+        <Grid container spacing={2} alignItems="center" justifyContent="center" className="frontcont">
+          <Grid item xs={12} sm={6} order={{ xs: 2, sm: 1 }}>
             <div className="frontGifContainer">
               <img className="frontGif" src={flames}></img>
               <p className="frontGifText">
@@ -21,7 +21,7 @@ export default class Frontpage extends React.Component {
               </p>
             </div>
           </Grid>
-          <Grid item xs={12} sm={6}>
+          <Grid item xs={12} sm={6} order={{ xs: 1, sm: 2 }}>
             <div className="frontRightContainer">
               <img className="frontRightImage" src={ukr}/>
               <div className="frontRightText">
