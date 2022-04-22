@@ -416,14 +416,20 @@ i:hover {
 
 .frontGifContainer {
   position: relative;
+  height: 110vh;
+  clip-path: inset( -20vh -0.4vw 15vh -10vw );
+} 
+
+.frontRightContainer {
+  position: relative;
+  top: -10vh;
 } 
 
 .frontGif {
-  top: -0%;
-  width: 100%;
-  left: 0;
+  top: -10vh;
+  height: 120vh;
+  left: -12%;
   position: relative;
-  overflow: hidden;
   z-index: 0;
 }
 
@@ -499,7 +505,7 @@ i:hover {
 
 .frontGifText {
   position: absolute;
-  top: 15%;
+  top: 12%;
   width: 100%;
   left: 15%;
   padding-right: 30%;

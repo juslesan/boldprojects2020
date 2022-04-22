@@ -22,7 +22,7 @@ export default class Frontpage extends React.Component {
             </div>
           </Grid>
           <Grid item xs={12} sm={6}>
-            <div className="frontGifContainer">
+            <div className="frontRightContainer">
               <img className="frontRightImage" src={ukr}/>
               <div className="frontRightText">
                 <h1 className="frontFont">Bold Projects</h1>

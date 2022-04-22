@@ -101,7 +101,7 @@
     height: 75vh;
   }
   .frontGifText {
-    top: 10%;
+    top: 15%;
     font-size: 32px;
   }
   .frontFont{
@@ -165,6 +165,7 @@
     height: 75vh;
   }
   .frontGifText {
+    margin-top: 30%;
     font-size: 24px;
   }
   .frontFont{
@@ -276,7 +277,8 @@
     height: 60vw;
   }
   .frontGifText {
-    font-size: 20px;
+    font-size: 24px;
+    left: 5%;
   }
   .frontFont{
     font-size: 36px;
@@ -287,11 +289,17 @@
   .frontGif {
     width: 100%;
   }
+  .frontGifContainer {
+    position: relative;
+    height: 110vh;
+    width: 116.1%;
+  } 
 }
 
 @media (max-width: 680px) {
   .frontGifText {
-    font-size: 18px;
+    top: 10%;
+    font-size: 22px;
   }
   .frontFont{
     font-size: 32px;
@@ -408,18 +416,39 @@
     padding-left: 0;
     overflow: visible
   }
-  .frontGif {
+  .frontRightContainer {
+    top: -10%;
+  }
+  .frontGifContainer {
+    position: relative;
     width: 100%;
-    left: 0;
+    height: 40vh;
+    clip-path: none;
+  }
+  .frontGif {
+    top: -0vh;
+    left: 0%;
+    height: 100%;
+    width: 100%;
+    left: -0%;
     margin-top: 3%;
   }
+  .frontGifText {
+    top: 20%;
+    margin-top: 0;
+    font-size: 22px;
+    left: 10%;
+    width: 80%;
+    padding: 0
+  }
+  iframe {
+    width: 0;
+  }
+  
   .frontFont {
     text-align: center;
     font-size: 32px;
     padding-right: 0;
-  }
-  .frontGifText {
-    font-size: 22px;
   }
   .linkButton {
     width: 25%;
@@ -559,7 +588,7 @@
     font-size: 18px;
   }
   .frontGifText {
-    top: 18%;
+    top: 20%;
     font-size: 18px;
   }
 }
@@ -583,7 +612,7 @@
     font-size: 14px;
   }
   .frontGifText {
-    top: 18%;
-    font-size: 14px;
+    top: 20%;
+    font-size: 16px;
   }
 }

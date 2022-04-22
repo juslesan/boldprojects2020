@@ -84,6 +84,7 @@ export default class App extends React.Component {
 
     }
     render () {
+        console.log(project2022Content[this.state.lang])
         return (
             <React.Fragment>
             <CssBaseline />
