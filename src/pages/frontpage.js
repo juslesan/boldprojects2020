@@ -34,7 +34,6 @@ export default class Frontpage extends React.Component {
                 </a>
               </div>
             </div>
-        
           </Grid>
         </Grid>
       </div>

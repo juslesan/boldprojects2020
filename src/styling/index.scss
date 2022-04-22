@@ -434,6 +434,7 @@ i:hover {
 }
 
 .divBackgroundImage { 
+  height: 100%;
   width: 100%;
   left: 0%;
   top: 1%;
@@ -451,7 +452,7 @@ i:hover {
 
 .overImageHead {
   position: absolute;
-  top: 20%;
+  top: 25%;
   padding-left: 7%;
   padding-right: 7%;
   color: white;
@@ -489,7 +490,10 @@ i:hover {
 }
 
 .heightLimitDiv {
-  height: 80vh;
+  height: 105vh;
+  width: 104%;
+  left: -1.9vw;
+  top: -10vh;
   overflow-y: hidden;
   position: relative;
 }

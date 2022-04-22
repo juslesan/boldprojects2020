@@ -22,25 +22,23 @@ export default class Info extends React.Component {
         <Grid container spacing={6} alignItems="center" justify="center">
           
           <Grid item xs={12} className="pageHeader">
-          <div className='heightLimitDiv'>
-            <img className="divBackgroundImage" src={flames}/>
-            <div className="overImageHead">
-              <h1 className="project2022header">THREE PEAKS</h1>
-              <p className="project2022paragraph">{this.props.text[0]}</p>
+            <div className='heightLimitDiv'>
+              <img className="divBackgroundImage" src={flames}/>
+              <div className="overImageHead">
+                <h1 className="project2022header">THREE PEAKS</h1>
+                <p className="project2022paragraph">{this.props.text[0]}</p>
+              </div>
             </div>
-          </div>
           </Grid>
           <Grid>
-          <div className="heightDiv">
-            <h1 className="project2022header">UNICEF</h1>
-            <div className="overImage">
-                <p className="project2022paragraph">{this.props.text[1]}</p>
-                <p className="project2022paragraph">{this.props.text[2]}</p>
+            <div className="heightDiv">
+              <h1 className="project2022header">UNICEF</h1>
+              <div className="overImage">
+                  <p className="project2022paragraph">{this.props.text[1]}</p>
+                  <p className="project2022paragraph">{this.props.text[2]}</p>
+              </div>
+              <img className="verticalBackgroundImage" style={{opacity: "60%"}} src={unicef}/>
             </div>
-            <img className="verticalBackgroundImage" style={{opacity: "60%"}} src={unicef}/>
-           
-            
-          </div>
           </Grid>
           <Grid>
             <div style={{textAlign: "center", paddingTop: "5%"}}>
