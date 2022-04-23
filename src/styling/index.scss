@@ -428,7 +428,7 @@ i:hover {
   left: -4vw;
   top: -7vh;
   width: 52vw;
-  background-image: url('../img/long-flames.gif');
+  background-image: url('https://boldprojects-storage.s3.eu-north-1.amazonaws.com/img/long-flames.gif');
   background-size: 150%;
   background-repeat: no-repeat;
 } 
@@ -495,11 +495,11 @@ i:hover {
 }
 
 .unicefBackground {
-  background-image: url("../img/project2022/unicef.png");
+  background-image: url("https://boldprojects-storage.s3.eu-north-1.amazonaws.com/img/project2022/Opacity_unicef.png");
   background-size: 80%;
   background-repeat: no-repeat;
   background-position-x: 10vw;
-  background-position-y: 0vw;
+  background-position-y: center;
 }
 
 .verticalBackgroundImage {

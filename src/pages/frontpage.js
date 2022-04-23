@@ -1,7 +1,5 @@
 import React from 'react';
 import Grid from '@material-ui/core/Grid';
-import flames from '../img/long-flames.gif'
-import ukr from '../img/ukr.png'
 import logo from '../img/Logo_black.png'
 
 export default class Frontpage extends React.Component {
@@ -35,7 +33,7 @@ export default class Frontpage extends React.Component {
         </Grid>
         <Grid item xs={12} sm={6}>
           <div className="frontRightContainer">
-            <img className="frontRightImage" src={ukr}/>
+            <img className="frontRightImage" src={"https://boldprojects-storage.s3.eu-north-1.amazonaws.com/img/ukr.png"}/>
             <div className="frontRightText">
               <img className="frontLogo" src={logo}></img>
               <a href="/project2022" className="frontLink">

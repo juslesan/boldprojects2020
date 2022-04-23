@@ -1,12 +1,6 @@
 import React from 'react';
 import Grid from '@material-ui/core/Grid';
-import unicef from '../img/project2022/unicef.png'
-import flames from '../img/wide-flames.gif'
 import donate from '../img/project2022/donate.png'
-import Logo1 from '../img/project2022/amer.png'
-import Logo2 from '../img/project2022/Fazer.png'
-import Logo3 from '../img/project2022/canyon.png'
-import Logo4 from '../img/project2022/veho.png'
 export default class Info extends React.Component {
   constructor(props) {
     super(props)
@@ -23,7 +17,7 @@ export default class Info extends React.Component {
           
           <Grid item xs={12} className="pageHeader">
             <div className='heightLimitDiv'>
-              <img className="divBackgroundImage" src={flames}/>
+              <img className="divBackgroundImage" src="https://boldprojects-storage.s3.eu-north-1.amazonaws.com/img/wide-flames.gif"/>
               <div className="overImageHead">
                 <h1 className="project2022header" style={{fontFamily: "Recoleta-Bold"}}>THREE PEAKS</h1>
                 <p className="project2022paragraph">{this.props.text[0]}</p>
@@ -50,16 +44,16 @@ export default class Info extends React.Component {
             <p className="project2022paragraph">PROJECT 2022 SPONSORS</p>
           </Grid>
           <Grid item xs={12} sm={2}>
-            <img className="projectLogo" src={Logo1}/>
+            <img className="projectLogo" src="https://boldprojects-storage.s3.eu-north-1.amazonaws.com/img/project2022/amer.png"/>
           </Grid>
           <Grid item xs={12} sm={2}>
-            <img className="projectLogo" src={Logo2}/>
+            <img className="projectLogo" src="https://boldprojects-storage.s3.eu-north-1.amazonaws.com/img/project2022/Fazer.png"/>
           </Grid>
           <Grid item xs={12} sm={2}>
-            <img className="projectLogo" src={Logo3}/>
+            <img className="projectLogo" src="https://boldprojects-storage.s3.eu-north-1.amazonaws.com/img/project2022/canyon.png"/>
           </Grid>
           <Grid item xs={12} sm={2}>
-            <img className="projectLogo" src={Logo4}/>
+            <img className="projectLogo" src="https://boldprojects-storage.s3.eu-north-1.amazonaws.com/img/project2022/veho.png"/>
           </Grid>
         </Grid>
         :
