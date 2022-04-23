@@ -20,6 +20,9 @@
     "react-router-dom": "^5.1.2",
     "react-scripts": "^4.0.2"
   },
+  "engines": {
+    "node": "16.13.2"
+  },
   "scripts": {
     "start": "react-scripts start  --max_old_space_size=4096 start",
     "build": "react-scripts build",
