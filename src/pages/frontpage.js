@@ -9,9 +9,23 @@ export default class Frontpage extends React.Component {
     super(props)
   }
   render() {
+    const itemStyles = (theme) => ({
+      item1: {
+        order: 1,
+        [theme.breakpoints.up("sm")]: {
+          order: 2
+        }
+      },
+      item2: {
+        order: 2,
+        [theme.breakpoints.up("sm")]: {
+          order: 1
+        }
+      }
+    })
     return (
       <Grid container spacing={2} alignItems="center" justify="center" className="frontcont">
-        <Grid item xs={12} sm={6} order={{ xs: 2, sm: 1 }} className="frontLeftGrid">
+        <Grid item xs={12} sm={6} className="frontLeftGrid">
           <div className="frontGifContainer">
             {/* <img className="frontGif" src={flames}></img> */}
             <p className="frontGifText">
@@ -19,7 +33,7 @@ export default class Frontpage extends React.Component {
             </p>
           </div>
         </Grid>
-        <Grid item xs={12} sm={6} order={{ xs: 1, sm: 2 }}>
+        <Grid item xs={12} sm={6}>
           <div className="frontRightContainer">
             <img className="frontRightImage" src={ukr}/>
             <div className="frontRightText">
