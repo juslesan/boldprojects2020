@@ -1,5 +1,5 @@
 import React from 'react';
-import Grid from '@mui/material/Grid';
+import Grid from '@material-ui/core/Grid';
 import content from '../content/about'
 
 export default class Info extends React.Component {
@@ -12,7 +12,7 @@ export default class Info extends React.Component {
 
   render() {
     return (
-      <Grid container spacing={3} alignItems="center" justifyContent="center">
+      <Grid container spacing={3} alignItems="center" justify="center">
         <Grid item xs={12} className="pageHeader">
           <h1>Info</h1>
         </Grid>

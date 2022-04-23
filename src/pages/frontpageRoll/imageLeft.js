@@ -1,5 +1,5 @@
 import React from 'react'
-import Grid from '@mui/material/Grid';
+import Grid from '@material-ui/core/Grid';
 
 export default function ImageLeft(props) {
   if (props.text && props.img) {

@@ -1,5 +1,5 @@
 import React from 'react';
-import Grid from '@mui/material/Grid';
+import Grid from '@material-ui/core/Grid';
 import Donate from '../img/project2021/Donate_button.png'
 import Logo1 from '../img/project2021/annette-tillander-logo.svg'
 import Logo2 from '../img/project2021/Tukikummit-logo.png'
@@ -18,7 +18,7 @@ export default class Project2020 extends React.Component {
     
     return (
       this.props.text ?
-        <Grid container spacing={6} alignItems="center" justifyContent="center">
+        <Grid container spacing={6} alignItems="center" justify="center">
           <Grid item xs={12} sm={12}>
             <h1>Päästä Päähän</h1>
           </Grid>

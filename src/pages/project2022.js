@@ -1,5 +1,5 @@
 import React from 'react';
-import Grid from '@mui/material/Grid';
+import Grid from '@material-ui/core/Grid';
 import unicef from '../img/project2022/unicef.png'
 import flames from '../img/wide-flames.gif'
 import donate from '../img/project2022/donate.png'
@@ -19,7 +19,7 @@ export default class Info extends React.Component {
     console.log(this.props.text)
     return (
       this.props.text ?
-        <Grid container spacing={12} alignItems="center" justifyContent="center">
+        <Grid container spacing={6} alignItems="center" justify="center">
           
           <Grid item xs={12} className="pageHeader">
             <div className='heightLimitDiv'>

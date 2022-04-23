@@ -1,5 +1,5 @@
 import React from 'react'
-import Grid from '@mui/material/Grid';
+import Grid from '@material-ui/core/Grid';
 
 export default function headOnTopBoxNarrow(props) {
   if (props.img) {

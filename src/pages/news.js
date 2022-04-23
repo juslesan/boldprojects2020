@@ -1,5 +1,5 @@
 import React from 'react';
-import Grid from '@mui/material/Grid';
+import Grid from '@material-ui/core/Grid';
 
 export default class Contact extends React.Component {
   constructor(props) {
@@ -14,7 +14,7 @@ export default class Contact extends React.Component {
 
   render() {
     return (
-      <Grid container spacing={3} alignItems="center" justifyCenter="center">
+      <Grid container spacing={3} alignItems="center" justify="center">
         <Grid item xs={12} className="pageHeader">
           <h1>Newspaper</h1>
         </Grid>
