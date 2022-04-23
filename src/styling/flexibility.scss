@@ -37,7 +37,7 @@
     font-size: 56px;
   }
   .frontGifText {
-    font-size: 62px;
+    font-size: 68px;
   }
   .frontFont{
     font-size: 108px;
@@ -45,7 +45,11 @@
   .frontLink > p {
     font-size: 46px;
   }
+  .frontGifText {
+    top: 22%;
+  }
 }
+
 @media (min-width: 1800px) {
   h1 {
     font-size: 64px;
@@ -168,14 +172,17 @@
     width: 105.25%;
   }
   .frontGifText {
-    margin-top: 30%;
-    font-size: 24px;
+    margin-top: 22%;
+    font-size: 28px;
   }
   .frontFont{
     font-size: 44px;
   }
   .frontLink > p {
     font-size: 24px;
+  }
+  .frontGifContainer {
+    height: 101vh;
   }
 }
 
@@ -283,7 +290,7 @@
   }
   .frontGifText {
     font-size: 24px;
-    left: 5%;
+    left: 15%;
   }
   .frontFont{
     font-size: 36px;
@@ -296,8 +303,8 @@
   }
   .frontGifContainer {
     position: relative;
-    height: 110vh;
-    width: 116.1%;
+    height: 101vh;
+    background-size: 200%;
   } 
 }
 
@@ -426,8 +433,9 @@
   }
   .frontGifContainer {
     position: relative;
-    width: 100%;
-    height: 40vh;
+    top: -2vw;
+    width: 109%;
+    height: 80vw;
     clip-path: none;
   }
   .frontGif {
@@ -557,6 +565,9 @@
   .project2022Link {
     width: 30%;
   }
+  .frontLeftGrid {
+    height: 80vw;
+  }
 }
 @media (max-width: 380px) {
   .contactInfoBottom {
@@ -593,6 +604,10 @@
   }
   .frontLink > p {
     font-size: 18px;
+  }
+  .frontGifContainer {
+    left: -4.5vw;
+    width: 109.65%;
   }
   .frontGifText {
     top: 20%;
