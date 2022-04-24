@@ -581,7 +581,13 @@
 @media (max-width: 425px) {
   .heightLimitDiv {
     width: 109%;
-    left: -3.95vw;
+    left: -4vw;
+  }
+}
+@media (max-width: 400px) {
+  .heightLimitDiv {
+    width: 109.5%;
+    left: -4.2vw;
   }
 }
 @media (max-width: 380px) {
