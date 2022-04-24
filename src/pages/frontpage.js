@@ -26,7 +26,7 @@ export default class Frontpage extends React.Component {
         <Grid item xs={12} sm={6} className="frontLeftGrid" order={{sm: 1, xs: 2}}>
           <div className="frontGifContainer">
             <p className="frontGifText">
-              Bold Projects is a nonprofit association founded in Helsinki in 2018. With our annual daring endeavors we want to help charities raise awareness and funds. Our projects are eco-friendly, creative and bold.
+              Bold Projects is an award-winning nonprofit association founded in Helsinki in 2018. With our annual daring endeavors we want to help charities raise awareness and funds. Our projects are eco-friendly, creative and bold.
             </p>
           </div>
         </Grid>
