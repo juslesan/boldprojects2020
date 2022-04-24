@@ -17,7 +17,7 @@ export default class PortfolioLInks extends React.Component {
   render () {
     return (
       <div>
-        <a className="menuLink" onClick={this.toggler} style={{}}> Portfolio</a>
+        <a className="menuLink" onClick={this.toggler}> Portfolio</a>
         {this.state.toggleClass ? 
         <div>
           <a className="menuPortfolioLink" href="/boldvoyage"> Bold Voyage</a>

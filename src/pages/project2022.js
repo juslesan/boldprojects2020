@@ -1,5 +1,5 @@
 import React from 'react';
-import Grid from '@material-ui/core/Grid';
+import Grid from '@mui/material/Grid';
 import donate from '../img/project2022/donate.png'
 export default class Info extends React.Component {
   constructor(props) {
@@ -13,7 +13,7 @@ export default class Info extends React.Component {
     console.log(this.props.text)
     return (
       this.props.text ?
-        <Grid container spacing={6} alignItems="center" justify="center">
+        <Grid container spacing={6} alignItems="center" justifyContent="center">
           
           <Grid item xs={12} className="pageHeader">
             <div className='heightLimitDiv'>

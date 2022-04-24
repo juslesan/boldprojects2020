@@ -174,6 +174,7 @@
   }
   .frontGifContainer {
     height: 101vh;
+    background-size: 180%;
   }
 }
 
@@ -421,7 +422,7 @@
   }
   .frontGifContainer {
     position: relative;
-    top: -0vw;
+    top: -5vw;
     width: 109%;
     height: 80vw;
     clip-path: none;
@@ -624,5 +625,9 @@
   .frontGifText {
     top: 20%;
     font-size: 16px;
+  }
+  .frontGifContainer {
+    left: -5vw;
+    width: 111.1%;
   }
 }

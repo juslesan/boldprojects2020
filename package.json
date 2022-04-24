@@ -3,17 +3,19 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@material-ui/core": "^4.8.1",
+    "@emotion/react": "^11.9.0",
+    "@emotion/styled": "^11.8.1",
+    "@mui/material": "5.6.2",
     "classnames": "^2.2.6",
     "local-storage": "^2.0.0",
-    "react": "^16.7.0",
-    "react-dom": "^16.7.0",
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0",
     "react-fade": "^1.1.1",
     "react-router-dom": "^5.1.2",
     "react-scripts": "^4.0.2"
   },
   "scripts": {
-    "start": "node --optimize_for_size --max_old_space_size=460 node_modules/.bin/react-scripts start",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -34,9 +36,9 @@
     ]
   },
   "devDependencies": {
-    "sass": "^1.50.0",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
-    "@testing-library/user-event": "^7.1.2"
+    "@testing-library/user-event": "^7.1.2",
+    "sass": "^1.50.0"
   }
 }

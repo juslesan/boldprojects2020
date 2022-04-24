@@ -1,5 +1,5 @@
 import React from 'react';
-import Grid from '@material-ui/core/Grid';
+import Grid from '@mui/material/Grid';
 import ContactFrame from '../components/contactFrame'
 import content from '../content/contact.json'
 export default class Contact extends React.Component {
@@ -16,7 +16,7 @@ export default class Contact extends React.Component {
   render() {
 
     return (
-      <Grid container spacing={5} alignItems="top" justify="center" className="contact">
+      <Grid container spacing={5} alignItems="top" justifyContent="center" className="contact">
         <Grid item xs={12} sm={12} className="pageHeader">
           <h1>Contact</h1>
         </Grid>

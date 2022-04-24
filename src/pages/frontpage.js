@@ -1,5 +1,5 @@
 import React from 'react';
-import Grid from '@material-ui/core/Grid';
+import Grid from '@mui/material/Grid';
 import logo from '../img/Logo_black.png'
 
 export default class Frontpage extends React.Component {
@@ -22,16 +22,15 @@ export default class Frontpage extends React.Component {
       }
     })
     return (
-      <Grid container spacing={2} alignItems="center" justify="center" className="frontcont">
-        <Grid item xs={12} sm={6} className="frontLeftGrid">
+      <Grid container spacing={0} alignItems="center" justifyContent="center" className="frontcont">
+        <Grid item xs={12} sm={6} className="frontLeftGrid" order={{sm: 1, xs: 2}}>
           <div className="frontGifContainer">
-            {/* <img className="frontGif" src={flames}></img> */}
             <p className="frontGifText">
               Bold Projects is a nonprofit association founded in Helsinki in 2018. With our annual daring endeavors we want to help charities raise awareness and funds. Our projects are eco-friendly, creative and bold.
             </p>
           </div>
         </Grid>
-        <Grid item xs={12} sm={6}>
+        <Grid item xs={12} sm={6} order={{sm: 2, xs: 1}}>
           <div className="frontRightContainer">
             <img className="frontRightImage" src={"https://boldprojects-storage.s3.eu-north-1.amazonaws.com/img/ukr.png"}/>
             <div className="frontRightText">
