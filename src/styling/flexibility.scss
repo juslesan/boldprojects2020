@@ -320,12 +320,13 @@
     width: 100%;
     left: 0vw;
     position: relative;
-    background-size: 240%;
+    background-size: 120%;
     height: 90vw;
+    margin-bottom: 5vw;
   }
   .frontGifText {
     margin-top: 0;
-    // top: 25%;
+    top: 25%;
     font-size: 22px;
   }
   .portfolioHeader {
@@ -465,7 +466,7 @@
     margin-top: 3%;
   }
   .frontGifText {
-    top: 20%;
+    top: 12.5%;
     margin-top: 0;
     font-size: 20px;
     left: 10%;
@@ -627,7 +628,7 @@
     height: 90vw;
   }
   .frontGifText {
-    top: 20%;
+    top: 12.5%;
     font-size: 18px;
   }
   .project2022header {
@@ -668,7 +669,7 @@
     font-size: 14px;
   }
   .frontGifText {
-    top: 20%;
+    top: 12.5%;
     font-size: 16px;
   }
   .heightLimitDiv {
