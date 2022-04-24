@@ -13,7 +13,7 @@ export default class Info extends React.Component {
     console.log(this.props.text)
     return (
       this.props.text ?
-        <Grid container spacing={6} alignItems="center" justifyContent="center">
+        <Grid container spacing={0} alignItems="center" justifyContent="center">
           
           <Grid item xs={12} className="pageHeader">
             <div className='heightLimitDiv'>
@@ -43,17 +43,20 @@ export default class Info extends React.Component {
             <p className="project2022paragraph">{this.props.text[4]}</p>
             <p className="project2022paragraph">PROJECT 2022 SPONSORS</p>
           </Grid>
-          <Grid item xs={12} sm={2}>
+          <Grid item xs={2} sm={2}>
             <img className="projectLogo" src="https://boldprojects-storage.s3.eu-north-1.amazonaws.com/img/project2022/amer.png"/>
           </Grid>
-          <Grid item xs={12} sm={2}>
+          <Grid item xs={2} sm={2}>
             <img className="projectLogo" src="https://boldprojects-storage.s3.eu-north-1.amazonaws.com/img/project2022/Fazer.png"/>
           </Grid>
-          <Grid item xs={12} sm={2}>
+          <Grid item xs={2} sm={2}>
             <img className="projectLogo" src="https://boldprojects-storage.s3.eu-north-1.amazonaws.com/img/project2022/canyon.png"/>
           </Grid>
-          <Grid item xs={12} sm={2}>
+          <Grid item xs={2} sm={2}>
             <img className="projectLogo" src="https://boldprojects-storage.s3.eu-north-1.amazonaws.com/img/project2022/veho.png"/>
+          </Grid>
+          <Grid>
+            <div style={{height: "1vw", width: "100vw"}}></div>
           </Grid>
         </Grid>
         :

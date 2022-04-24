@@ -291,15 +291,17 @@
     width: 100%;
   }
   .frontGifContainer {
-    position: relative;
     height: 101vh;
-    background-size: 200%;
-  } 
+    background-size: 220%;
+  }
+  .project2022Link {
+    width: 20%;
+  }
 }
 
 @media (max-width: 680px) {
   .frontGifText {
-    top: 10%;
+    top: 20%;
     font-size: 22px;
   }
   .frontFont{
@@ -307,6 +309,38 @@
   }
   .frontLink > p {
     font-size: 18px;
+  }
+  .frontGifContainer {
+    background-size: 240%;
+  }
+}
+
+@media (max-width: 600px) {
+  .frontGifContainer {
+    width: 100%;
+    left: 0vw;
+    position: relative;
+    background-size: 240%;
+    height: 90vw;
+  }
+  .frontGifText {
+    margin-top: 0;
+    top: 25%;
+    font-size: 22px;
+  }
+  .portfolioHeader {
+    padding-left: 7%;
+  }
+  .scrollableText {
+    letter-spacing: 0;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .pageHeader > h1{
+    font-size: 55px;
+  }
+  .project2022Link {
+    width: 25%;
   }
 }
 
@@ -407,10 +441,6 @@
   i{
     padding:15px;
   }
-  .scrollableText {
-    letter-spacing: 0;
-    padding-left: 3%;
-  }
   .scrollableImgs {
     width: 100%;
     margin: 0;
@@ -423,7 +453,7 @@
   .frontGifContainer {
     position: relative;
     top: -5vw;
-    width: 109%;
+    width: 100%;
     height: 80vw;
     clip-path: none;
   }
@@ -438,7 +468,7 @@
   .frontGifText {
     top: 20%;
     margin-top: 0;
-    font-size: 22px;
+    font-size: 20px;
     left: 10%;
     width: 80%;
     padding: 0
@@ -519,10 +549,10 @@
     padding-top: 10vw;
   }
   .project2022header {
-    font-size: 14px;
+    font-size: 24px;
   }
   .project2022paragraph {
-    font-size: 12px;
+    font-size: 15px;
   }
   .overImage {
     top: 10%;
@@ -530,20 +560,14 @@
     padding-right: 2%;
   }
   .heightLimitDiv {
-    top: 0%;
-    width: 100%;
-    left: 0;
-    height: 30vh;
+    width: 108%;
+    left: -3.7vw;
+    height: 60vh;
   }
   .overImageHead {
-    top: 20%;
+    top: 30%;
     padding-left: 2%;
     padding-right: 2%;
-  }
-  .projectLogo {
-    position: relative;
-    width: 60%;
-    left: 20%;
   }
   .heightDiv {
     height: 72vw;
@@ -589,8 +613,7 @@
     font-size: 18px;
   }
   .frontGifContainer {
-    left: -4.5vw;
-    width: 109.65%;
+    height: 90vw;
   }
   .frontGifText {
     top: 20%;
@@ -625,9 +648,5 @@
   .frontGifText {
     top: 20%;
     font-size: 16px;
-  }
-  .frontGifContainer {
-    left: -5vw;
-    width: 111.1%;
   }
 }

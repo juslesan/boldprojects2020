@@ -22,7 +22,7 @@ export default class Frontpage extends React.Component {
       }
     })
     return (
-      <Grid container spacing={0} alignItems="center" justifyContent="center" className="frontcont">
+      <Grid container spacing={2} alignItems="center" justifyContent="center" className="frontcont">
         <Grid item xs={12} sm={6} className="frontLeftGrid" order={{sm: 1, xs: 2}}>
           <div className="frontGifContainer">
             <p className="frontGifText">
