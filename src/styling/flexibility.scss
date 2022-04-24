@@ -579,6 +579,13 @@
     height: 80vw;
   }
 }
+@media (max-width: 425px) {
+  .heightLimitDiv {
+    width: 109%;
+    left: -3.95vw;
+    height: 60vh;
+  }
+}
 @media (max-width: 380px) {
   .contactInfoBottom {
     font-size: 14px;
@@ -625,6 +632,18 @@
   .project2022paragraph {
     font-size: 11px;
   }
+  .heightLimitDiv {
+    width: 109.7%;
+    left: -4.4vw;
+    height: 60vh;
+  }
+}
+@media (max-width: 350px) {
+  .heightLimitDiv {
+    width: 110.5%;
+    left: -4.6vw;
+    height: 60vh;
+  }
 }
 @media (max-width: 325px) {
   h1 {
@@ -648,5 +667,10 @@
   .frontGifText {
     top: 20%;
     font-size: 16px;
+  }
+  .heightLimitDiv {
+    width: 111.5%;
+    left: -5vw;
+    height: 60vh;
   }
 }
