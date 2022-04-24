@@ -344,6 +344,19 @@
   }
 }
 
+@media (orientation: landscape) and (max-width: 769px) {
+  .frontGifText {
+    font-size: 24px;
+  }
+  .frontGifText {
+    margin-top: 6vw;
+    top: 0;
+  }
+  .frontGifContainer {
+    top: -7vh;
+  }
+}
+
 @media (max-width: 450px) {
   .content {
     margin-top: 5vh;
