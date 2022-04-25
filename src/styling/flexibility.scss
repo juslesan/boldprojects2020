@@ -321,13 +321,16 @@
     left: 0vw;
     position: relative;
     background-size: 120%;
-    height: 90vw;
+    height: auto;
     margin-bottom: 5vw;
   }
   .frontGifText {
+    position: relative;
     margin-top: 0;
-    top: 25%;
+    padding-top: 12.5vw;
+    padding-bottom: 12.5vw;
     font-size: 22px;
+    top: 0;
   }
   .portfolioHeader {
     padding-left: 7%;
@@ -466,12 +469,10 @@
     margin-top: 3%;
   }
   .frontGifText {
-    top: 12.5%;
     margin-top: 0;
     font-size: 20px;
     left: 10%;
     width: 80%;
-    padding: 0
   }
   iframe {
     width: 0;
@@ -628,7 +629,6 @@
     height: 90vw;
   }
   .frontGifText {
-    top: 12.5%;
     font-size: 18px;
   }
   .project2022header {
@@ -669,7 +669,6 @@
     font-size: 14px;
   }
   .frontGifText {
-    top: 12.5%;
     font-size: 16px;
   }
   .heightLimitDiv {
