@@ -40,7 +40,6 @@ export default class Info extends React.Component {
               </a>
             </div>
             <p className="project2022paragraph">{this.props.text[3]}</p>
-            <p className="project2022paragraph">{this.props.text[4]}</p>
             <p className="project2022paragraph">PROJECT 2022 SPONSORS</p>
           </Grid>
           <Grid item xs={2} sm={2}>
