@@ -54,10 +54,16 @@
   }
 
 }
+@media (min-width: 1850px) and (max-width: 2400px) and (max-height: 1200px) {
+  .frontGifText {
+    font-size: 66px;
+    top: 10%;
+  }
+}
 
-@media (min-width: 1800px) and (max-width: 2400px) {
+@media (min-width: 1850px) and (max-width: 2400px) {
   h1 {
-    font-size: 72px;
+    font-size: 68px;
   }
   .italics {
     font-size: 30px;
