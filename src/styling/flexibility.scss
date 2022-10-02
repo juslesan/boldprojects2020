@@ -47,6 +47,14 @@
   // }
 }
 
+@media (min-width: 2400px) and (max-height: 1300px) {
+  .frontGifText {
+    font-size: 66px;
+    top: 10%;
+  }
+
+}
+
 @media (min-width: 1800px) and (max-width: 2400px) {
   h1 {
     font-size: 72px;
